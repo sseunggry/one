@@ -38,7 +38,9 @@
                                 <li><span>Step3 가입완료</span></li>
                             </ul>
                             <div class="form-wrap">
-                                <p class="tit">회원 구분 선택</p>
+                                <div class="form-tit">
+                                    <p class="tit">회원 구분 선택</p>
+                                </div>
                                 <div class="input-radio-wrap">
                                     <div class="input-radio">
                                         <input type="radio" name="member" id="meber1" /> 
@@ -51,21 +53,30 @@
                                 </div>
                             </div>
                             <div class="form-wrap">
-                                <div class="flex space-between">
+                                <div class="form-tit">
                                     <p class="tit">약관 동의</p>
                                     <div class="input-check">
-                                        <input type="checkbox" name="chk" id="chk1" />
-                                        <label for="chk1">모두 동의합니다</label>
+                                        <input type="checkbox" name="allChk" id="allChk" />
+                                        <label for="allChk">모두 동의합니다</label>
                                     </div>
                                 </div>
                                 <div class="line-box">
-                                    <div class="check-box">
-                                        <input type="checkbox" name="chk-auto-login" class="input-check" id="chk-auto-login" />
-                                        <label for="chk-auto-login" class="input-check-label text-label">
-                                            <span class="checkbox-active"></span>
-                                            <span class="check bg-check"></span>
-                                            <span class="text">아이디저장</span>
-                                        </label>
+                                    <div class="input-check-wrap">
+                                        <div class="input-check">
+                                            <input type="checkbox" name="subChk" id="subChk1" />
+                                            <label for="subChk1"><span class="c-blue">(필수)</span> 서비스 이용 약관</label>
+                                            <button type="button" class="btn txt btn-terms">약관보기</button>
+                                        </div>
+                                        <div class="input-check">
+                                            <input type="checkbox" name="subChk" id="subChk2" />
+                                            <label for="subChk2"><span class="c-blue">(필수)</span> 개인정보 수집 및 이용에 관한 동의</label>
+                                            <button type="button" class="btn txt btn-terms">약관보기</button>
+                                        </div>
+                                        <div class="input-check">
+                                            <input type="checkbox" name="subChk" id="subChk3" />
+                                            <label for="subChk3"><span>(선택)</span> 선택동의 항목에 대한 개인정보 수집 및 이용에 관한 동의</label>
+                                            <button type="button" class="btn txt btn-terms">약관보기</button>
+                                        </div>
                                     </div>
 								</div>
                             </div>
