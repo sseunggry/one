@@ -1,0 +1,13 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="icon/24">
+        <mask id="mask0_352_22795" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+            <rect id="Bounding box" y="0.5" width="24" height="24" fill="#D9D9D9"/>
+        </mask>
+        <g mask="url(#mask0_352_22795)">
+            <g id="Group 26086363">
+                <rect id="Rectangle 12399" width="6.31106" height="1.4185" rx="0.70925" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 14.7334 12.5024)" fill="#AAAAAA"/>
+                <rect id="Rectangle 12400" width="6.30445" height="1.4185" rx="0.70925" transform="matrix(-0.707107 0.707107 0.707107 0.707107 13.7302 11.4993)" fill="#AAAAAA"/>
+            </g>
+        </g>
+    </g>
+</svg>

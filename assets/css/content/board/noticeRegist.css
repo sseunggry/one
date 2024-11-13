@@ -1,0 +1,302 @@
+@charset "UTF-8";
+
+#title-area-title {
+    text-align: left;
+    font-family: 'Pretendard-Medium';
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+.title-area {
+    position: absolute;
+    top: 60px;
+    left: 315px;
+    width: 1290px;
+    height: 60px;
+    text-align: left;
+    font-style: medium;
+    font-size: 20px;
+}
+
+#regist-area {
+    position: absolute;
+    top: 220px;
+    left: 315px;
+    width: 1320px;
+    height: 500px;
+    font-family: 'Pretendard-Medium';
+}
+
+#btn-area {
+    position: absolute;
+    top: 750px;
+    left: 515px;
+    width: 600px;
+    height: 100px;
+}
+
+#characterCount {
+    position: absolute;
+    left: 1250px;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 11px;
+    font-family: 'Pretendard-Medium';
+    color: #ACB7C7;
+}
+
+#regist-title {
+    font-family: 'Pretendard-Medium';
+    font-size: 12px;
+    position: absolute;
+    top: -10px;
+    left: 70px;
+    width: 1190px;
+    padding-right: 100px;
+    height: 35px;
+    outline: none;
+    text-indent: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-color: #768AA7;
+}
+
+#label-title {
+    position: absolute;
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+#regist-contents-area {
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    width: 1270px;
+    height: 280px;
+}
+
+#regist-contents {
+    position: relative;
+    width: 100%;
+    height: 90%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #ACB7C7;
+    border-radius: 2px;
+    opacity: 1;
+    padding: 10px;
+    font-family: 'Pretendard-Regular';
+    font-size: 12px;
+    resize: none;
+    overflow: none;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-radius: 3px;
+    border-color: #768AA7;
+}
+
+#regist-contents-child {
+    margin-bottom: 30px;
+    font-family: 'Pretendard-Regular';
+    font-size: 12px;
+    width: 1270px;
+    height: 230px;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+#regist-contents:focus-within {
+    border-color: #1CA3DD;
+}
+
+#regist-contents-child::-webkit-scrollbar {
+    width: 8px;
+}
+
+#regist-contents-child::-webkit-scrollbar-thumb {
+    background-color: #E3E3E3;
+    border-radius: 8px;
+}
+
+#regist-contents-child::-webkit-scrollbar-track {
+    background-color: #F8F7F7;
+    border-radius: 8px;
+}
+
+#regist-contents-child::placeholder {
+    color: #ACB7C7;
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+}
+
+#label-contents {
+    position: absolute;
+    font-size: 12px;
+    top: 85px;
+    left: 10px;
+}
+
+#title-number-check {
+    position: absolute;
+    color: #ACB7C7;
+    font-size: 14px;
+    top: -15px;
+    left: 1290px;
+    width: 200px;
+}
+
+#contents-number-check {
+    position: absolute;
+    color: #ACB7C7;
+    font-size: 11px;
+    top: 240px;
+    left: 1220px;
+    width: 220px;
+}
+
+#label-file {
+    position: absolute;
+    font-size: 12px;
+    top: 4px;
+    left: -12px;
+}
+
+#btn-cancel {
+    font-family: 'Pretendard-Medium';
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    left: 340px;
+    width: 140px;
+    height: 50px;
+    border: none;
+    background: #768AA7 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#btn-confirm {
+    font-family: 'Pretendard-Regular';
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    width: 140px;
+    height: 50px;
+    border: none;
+    background: #22214B 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#check-box {
+    position: absolute;
+    top: 35px;
+    left: 66px;
+    width: 20px;
+    height: 20px;
+    display: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #768AA7;
+    opacity: 1;
+    accent-color: grey;
+    cursor: pointer;
+}
+
+#check-box-label {
+    position: absolute;
+    top: 38px;
+    left: 70px;
+    width: 80px;
+    height: 20px;
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+#check-box-label span {
+    vertical-align: middle;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox] + label {
+    cursor: pointer;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-image: url('/image/cb_off.svg');
+}
+
+input[type=checkbox]:checked + label {
+    background-image: url('/image/cb_on.svg');
+}
+
+#regist-title:focus {
+    border-color: #1CA3DD;
+}
+
+.file-upload-container {
+    position: relative;
+    top: 400px;
+}
+
+.file-info {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    position: relative;
+}
+
+#file2 {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 10px; /* 파일명과 삭제 버튼 사이 간격을 주기 위해 오른쪽 마진 추가 */
+}
+
+label.board-file-label {
+    position: absolute;
+    top: 0px;
+    left: 1340px;
+    content: url('/image/btn_file.svg');
+    position: absolute;
+    cursor: pointer;
+}
+
+span.file-name-display {
+    font-size: 12px;
+    bottom: 18px;
+    margin-left: 77px;
+}
+
+#board-info-file {
+    display: none;
+}
+
+.navy-line {
+    position: absolute;
+    border-bottom: 1px solid #768AA7;
+    width: 1295px;
+    top: 40px;
+    margin-left: 68px;
+}
+
+.currentLength {
+    color: black; /* Set the color for the currentLength part */
+}

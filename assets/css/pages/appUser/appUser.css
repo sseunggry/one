@@ -1,0 +1,15 @@
+.select {
+    width: 150px;
+}
+
+.input-fit {
+    flex: 1;
+}
+
+.input-fit-text {
+    width: calc(100% - 10px);
+}
+
+.appUser-contents {
+    padding: 30px 24px 0;
+}

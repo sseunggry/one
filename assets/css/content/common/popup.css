@@ -1,0 +1,1074 @@
+@charset "UTF-8";
+
+/* ----------------- 딤 레이어 css start ---------------*/
+.dim-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1100;
+    display: none;
+}
+
+.dim-layer .dimBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000CC;
+    opacity: 1;
+}
+
+/* ----------------- 딤 레이어 css end ------------------ */
+
+/* ----------------공통 css start--------------*/
+input:focus {
+    outline: none;
+}
+
+/* ---------------- 공통 css end-------------------*/
+
+
+/*------------ 기본형 팝업(아이콘 X, 확인버튼만 O) start-----------------*/
+.pop-layer1-base .btn-close {
+    cursor: pointer;
+    margin-left: 308px;
+}
+
+.pop-layer1-base .pop-container1 {
+    padding: 20px 25px;
+}
+
+.pop-layer1-base p.ctxt1-base {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+    line-height: 18px;
+    margin-top: 20%;
+}
+
+.pop-layer1-base .btn-r-type1-base {
+    width: 370px;
+    height: 40px;
+    background: #22214B 0% 0% no-repeat padding-box;
+    opacity: 1;
+    top: 253px;
+    left: 0px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.pop-layer1-base {
+    position: fixed;
+    top: 35%;
+    left: 40%;
+    z-index: 10;
+    width: 370px;
+    height: 293px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: none;
+}
+
+a.btn-layerClose1-base {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #F8F7F7;
+    opacity: 1;
+    margin: 13px 0 0 175px;
+}
+
+
+p.btn-layerClose1-base {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #F8F7F7;
+    opacity: 1;
+    margin: 13px 0 0 175px;
+}
+
+.pop-layer1-base a.btn-layerClose1-base {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #F8F7F7;
+    opacity: 1;
+    margin: 13px 0 0 175px;
+}
+
+.pop-layer1-base p.btn-layerClose1-base:hover {
+    color: #fff;
+}
+
+/*------------ 기본형 팝업1(아이콘 X, 확인 버튼만 O) end-----------------*/
+
+
+/*------------ 기본형 팝업2(아이콘 X, 취소,확인 버튼만 O) start-----------------*/
+.pop-layer2-base .btn-close {
+    cursor: pointer;
+    margin-left: 308px;
+}
+
+.pop-layer2-base .pop-container2 {
+    padding: 20px 25px;
+}
+
+.pop-layer2-base p.ctxt2-base {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+    line-height: 18px;
+    margin-top: 20%;
+}
+
+.pop-layer2-base .btn-r-type2-base {
+    width: 370px;
+    height: 40px;
+    top: 253px;
+    left: 0px;
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+    color: #F8F7F7;
+    opacity: 1;
+    font-size: 12px;
+
+}
+
+.pop-layer2-base {
+    position: fixed;
+    top: 35%;
+    left: 40%;
+    z-index: 10;
+    width: 370px;
+    height: 293px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: none;
+}
+
+
+.pop-layer2-base a.btn-layerClose2 {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #F8F7F7;
+    opacity: 1;
+    margin: 13px 0 0 175px;
+}
+
+.pop-layer2-base .btn-r-type2-base .btn-layer-close-base {
+    display: inline-block;
+    width: 185px;
+    height: 40px;
+    line-height: 42px;
+    background: #768AA7;
+    opacity: 1;
+}
+
+.pop-layer2-base .btn-r-type2-base .btn-layer-ok-base {
+    display: inline-block;
+    width: 185px;
+    height: 40px;
+    line-height: 42px;
+    background: #22214B;
+    opacity: 1;
+}
+
+.pop-layer2-base .btn-r-type2-base span:hover {
+    color: #fff;
+}
+
+/*------------ 기본형 팝업2(아이콘 X, 취소,확인 버튼만 O) end-----------------*/
+
+
+/* ----------------- 팝업 type 1 css start ------------------*/
+.pop-layer1 .btn-close {
+    cursor: pointer;
+    margin-left: 308px;
+}
+
+.pop-layer1 .pop-container1 {
+    padding: 20px 25px;
+}
+
+.pop-layer1 p.ctxt1 {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+    line-height: 18px;
+}
+
+.pop-layer1 .btn-r-type1 {
+    width: 370px;
+    height: 40px;
+    background: #22214B 0% 0% no-repeat padding-box;
+    opacity: 1;
+    cursor: pointer;
+    top: 253px;
+    left: 0px;
+    position: absolute;
+}
+
+.pop-layer1 {
+    position: fixed;
+    top: 35%;
+    left: 40%;
+    z-index: 10;
+    width: 370px;
+    height: 293px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: none;
+}
+
+.pop-info-icon1 {
+    margin: 20px auto;
+    width: 18px;
+    height: 18px;
+}
+
+a.btn-layerClose1 {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #F8F7F7;
+    opacity: 1;
+    margin: 13px 0 0 175px;
+}
+
+
+p.btn-layerClose1 {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #F8F7F7;
+    opacity: 1;
+    margin: 13px 0 0 175px;
+}
+
+p.btn-layerClose1:hover {
+    color: #fff;
+}
+
+/* ------------- 팝업 type 1 css end ----------------*/
+
+
+/*-------------- 팝업 type 2 css start--------------*/
+.pop-layer2 .btn-close {
+    cursor: pointer;
+    margin-left: 308px;
+}
+
+.pop-layer2 .pop-container2 {
+    padding: 20px 25px;
+}
+
+.pop-layer2 p.ctxt2 {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+    line-height: 18px;
+}
+
+.pop-layer2 .btn-r-type2 {
+    width: 370px;
+    height: 40px;
+    top: 253px;
+    left: 0px;
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+    color: #F8F7F7;
+    opacity: 1;
+    font-size: 12px;
+
+}
+
+.pop-layer2 {
+    position: fixed;
+    top: 35%;
+    left: 40%;
+    z-index: 10;
+    width: 370px;
+    height: 293px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: none;
+}
+
+.pop-info-icon2 {
+    margin: 28px auto;
+    width: 18px;
+    height: 18px;
+}
+
+a.btn-layerClose2 {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #F8F7F7;
+    opacity: 1;
+    margin: 13px 0 0 175px;
+}
+
+.btn-r-type2 .btn-layer-close {
+    display: inline-block;
+    width: 185px;
+    height: 40px;
+    line-height: 42px;
+    background: #768AA7;
+    opacity: 1;
+}
+
+.btn-r-type2 .btn-layer-ok {
+    display: inline-block;
+    width: 185px;
+    height: 40px;
+    line-height: 42px;
+    background: #22214B;
+    opacity: 1;
+}
+
+.btn-r-type2 span:hover {
+    color: #fff;
+}
+
+/* -------------- 팝업 type 2 css end -------------*/
+
+
+/* -------------- 팝업 type 3 css start -------------*/
+.pop-layer3 .btn-close {
+    cursor: pointer;
+    margin-left: 575px;
+}
+
+.pop-layer3 .pop-container3 {
+    padding: 20px 25px;
+}
+
+.pop-layer3 p.ctxt3 {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+    line-height: 18px;
+}
+
+.pop-layer3 .btn-r-type3 {
+    width: 638px;
+    height: 40px;
+    top: 383px;
+    left: 0px;
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+    color: #F8F7F7;
+    opacity: 1;
+    font-size: 12px;
+}
+
+.pop-layer3 {
+    position: fixed;
+    top: 29%;
+    left: 34%;
+    z-index: 10;
+    width: 638px;
+    height: 423px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: none;
+}
+
+.btn-r-type3 .btn-layer-close {
+    display: inline-block;
+    width: 319px;
+    height: 40px;
+    line-height: 42px;
+    background: #768AA7;
+    opacity: 1;
+}
+
+.btn-r-type3 .btn-layer-ok {
+    display: inline-block;
+    width: 319px;
+    height: 40px;
+    line-height: 42px;
+    background: #22214B;
+    opacity: 1;
+}
+
+.btn-r-type3 span:hover {
+    color: #fff;
+}
+
+.pop-layer3 .pop-info-subject-type1 {
+    text-align: center;
+}
+
+.pop-layer3 .pop-info-subject-type1 > p {
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+.pop-layer3 .pwd-modify-content {
+    margin-top: 60px;
+}
+
+.pop-layer3 .pwd-modify-content > div {
+    width: 500px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.pop-layer3 .pwd-modify-content > div > span {
+    font-size: 14px;
+    padding-right: 30px;
+}
+
+.pop-layer3 .pwd-modify-content > div > input {
+    border: none;
+    border-bottom: 1px solid #1a1a1a99;
+    opacity: 1;
+    padding-bottom: 13px;
+    width: 360px;
+}
+
+.pop-layer3 .pwd-modify-content > div > p {
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #ACB7C7;
+    opacity: 1;
+    margin-left: 117px;
+}
+
+/* -------------- 팝업 type 3 css end -------------*/
+
+
+/* -------------- 팝업 type 4 css end -------------*/
+
+.pop-layer4 .btn-close {
+    cursor: pointer;
+    margin-left: 435px;
+}
+
+.pop-layer4 .pop-container4 {
+    padding: 20px 25px;
+}
+
+.pop-layer4 p.ctxt3 {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+    line-height: 18px;
+}
+
+.pop-layer4 .btn-r-type4 {
+    width: 500px;
+    height: 40px;
+    top: 460px;
+    left: 0px;
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+    background: #22214B 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-size: 12px;
+}
+
+.pop-layer4 {
+    position: fixed;
+    top: 25%;
+    left: 37%;
+    z-index: 10;
+    width: 500px;
+    height: 500px;
+    /* UI Properties */
+    background: #F8F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: none;
+}
+
+.btn-r-type4 .btn-layer-close {
+    display: inline-block;
+    width: 319px;
+    height: 40px;
+    line-height: 42px;
+    background: #768AA7;
+    opacity: 1;
+}
+
+.btn-r-type4 .btn-layer-ok {
+    display: inline-block;
+    width: 319px;
+    height: 40px;
+    line-height: 42px;
+    background: #22214B;
+    opacity: 1;
+}
+
+.btn-r-type4 span:hover {
+    color: #fff;
+}
+
+.pop-layer4 .pop-info-subject-type2 {
+    text-align: left;
+    margin-top: -40px;
+}
+
+.pop-layer4 .pop-info-subject-type2 > p {
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+.pop-layer4 .terms-container {
+    width: 480px;
+    height: 396px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: -15px;
+}
+
+.pop-layer4 .terms-subject {
+    font-size: 14px;
+    padding: 20px 0 0 15px;
+}
+
+.pop-layer4 .terms-conts {
+    font-size: 12px;
+    padding: 0 15px 0 15px;
+    width: 444px;
+    height: 330px;
+    overflow-y: scroll;
+}
+
+.terms-conts::-webkit-scrollbar {
+    width: 8px; /* 스크롤바의 너비 */
+}
+
+.terms-conts::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #E3E3E3 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.terms-conts::-webkit-scrollbar-track {
+    background: #F8F7F7 0% 0% no-repeat padding-box; /*스크롤바 뒷 배경 색상*/
+    border-radius: 5px;
+    opacity: 1;
+}
+
+a.btn-layerClose4 {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #F8F7F7;
+    opacity: 1;
+    margin: 13px 0 0 175px;
+}
+
+
+p.btn-layerClose4 {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #F8F7F7;
+    opacity: 1;
+    margin: 13px 0 0 0;
+}
+
+p.btn-layerClose4:hover {
+    color: #fff;
+}
+
+/* -------------- 팝업 type 4 css end -------------*/
+
+
+/* ------------- 팝업 type 5 css start -------------*/
+.pop-layer5 {
+    position: fixed;
+    top: 25%;
+    left: 37%;
+    z-index: 10;
+    width: 500px;
+    height: 466px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: none;
+}
+
+.pop-layer5 .btn-close {
+    cursor: pointer;
+    margin-left: 435px;
+}
+
+.pop-layer5 .pop-container5 {
+    padding: 20px 25px;
+}
+
+.pop-layer5 .pop-container5 .pop-info-txt {
+    width: 420px;
+    height: 100px;
+    text-align: center;
+    margin: 40px 15px 0 15px;
+}
+
+.pop-layer5 .pop-container5 .pop-info-txt > p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.pop-layer5 .pop-container5 .pop-info-check {
+    width: 410px;
+    height: 22px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.pop-container5 .pop-info-check input[type=checkbox] {
+    display: none;
+}
+
+.pop-container5 .pop-info-check input[type=checkbox] + label {
+    cursor: pointer;
+    padding-left: 15px;
+    display: inline-block;
+    font-size: 12px;
+    width: 195px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-image: url('/image/cb_off.svg');
+}
+
+.pop-container5 .pop-info-check input[type=checkbox]:checked + label {
+    background-image: url('/image/cb_on.svg');
+}
+
+.pop-container5 .pop-info-check input[type=checkbox] + label > span {
+    vertical-align: sub;
+}
+
+.pop-layer5 .pop-container5 .withdrawal-conts {
+    margin: 50px 0 0 82px;
+}
+
+.pop-layer5 .pop-container5 .withdrawal-conts div > span:nth-child(1) {
+    font-size: 16px;
+}
+
+.pop-layer5 .withdrawal-conts > div {
+    width: 500px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.pop-layer5 .withdrawal-conts > div > span {
+    font-size: 14px;
+    padding-right: 30px;
+}
+
+.pop-layer5 .withdrawal-conts .withdrawal-input > span:nth-child(2) {
+    display: inline-block;
+    width: 200px;
+    padding: 0px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 2px;
+    margin: 0px;
+    border-bottom: 1px solid #1A1A1A;
+}
+
+.pop-layer5 .withdrawal-conts .withdrawal-input > span:nth-child(2) > p {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    font: normal normal normal 14px Pretendard;
+    opacity: 1;
+}
+
+.pop-layer5 .withdrawal-conts .withdrawal-input-check > input {
+    width: 200px;
+    margin-left: 3px;
+    padding-bottom: 13px;
+    border: none;
+    border-bottom: 1px solid #1A1A1A;
+    opacity: 1;
+}
+
+.pop-layer5 .withdrawal-conts .withdrawal-input-check > div {
+    margin-left: 70px;
+    margin-top: 17px;
+}
+
+.pop-layer5 .withdrawal-conts .withdrawal-input-check > div > span {
+    color: #FF0000;
+    opacity: 1;
+    font-size: 12px;
+    margin-left: 8px;
+    vertical-align: super;
+}
+
+
+.pop-layer5 p.ctxt3 {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+    line-height: 18px;
+}
+
+.pop-layer5 .btn-r-type5 {
+    width: 500px;
+    height: 40px;
+    top: 426px;
+    left: 0px;
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+    color: #F8F7F7;
+    opacity: 1;
+    font-size: 12px;
+
+}
+
+.btn-r-type5 .btn-layer-close {
+    display: inline-block;
+    width: 250px;
+    height: 40px;
+    line-height: 42px;
+    background: #768AA7;
+    opacity: 1;
+}
+
+.btn-r-type5 .btn-layer-ok {
+    display: inline-block;
+    width: 250px;
+    height: 40px;
+    line-height: 42px;
+    background: #22214B;
+    opacity: 1;
+}
+
+.btn-r-type5 span:hover {
+    color: #fff;
+}
+
+/* ------------- 팝업 type 5 css end -------------*/
+
+
+.pop-layer6 .btn-close {
+    cursor: pointer;
+    margin-left: 540px;
+}
+
+.pop-layer6 .pop-container6 {
+    padding: 20px 25px;
+}
+
+.pop-layer6 p.ctxt3 {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+    line-height: 18px;
+}
+
+.pop-layer6 .btn-r-type6 {
+    width: 600px;
+    height: 40px;
+    top: 560px;
+    left: 0px;
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+    background: #22214B 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-size: 12px;
+}
+
+.pop-layer6 {
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    z-index: 10;
+    width: 600px;
+    height: 600px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: none;
+}
+
+.btn-r-type6 .btn-layer-close {
+    display: inline-block;
+    width: 319px;
+    height: 40px;
+    line-height: 42px;
+    background: #768AA7;
+    opacity: 1;
+}
+
+.btn-r-type6 .btn-layer-ok {
+    display: inline-block;
+    width: 319px;
+    height: 40px;
+    line-height: 42px;
+    background: #22214B;
+    opacity: 1;
+}
+
+.btn-r-type6 span:hover {
+    color: #fff;
+}
+
+.pop-layer6 .pop-info-subject-type2 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.pop-layer6 .pop-info-subject-type2 > p {
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+    font-family: 'Pretendard-Medium';
+}
+
+.pop-layer6 .terms-container {
+    width: 480px;
+    height: 380px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 35px;
+    margin-top: 30px;
+    border: 1px solid #768AA7;
+    border-radius: 2px;
+}
+
+.pop-layer6 .terms-subject {
+    font-size: 14px;
+    padding: 20px 0 0 15px;
+}
+
+.pop-layer6 .terms-conts {
+    font-family: 'Pretandard-Regular';
+    text-align: center;
+    font-size: 12px;
+    padding: 0 15px 0 15px;
+    width: 444px;
+    height: 360px;
+    overflow-y: scroll;
+}
+
+.terms-conts::-webkit-scrollbar {
+    width: 8px; /* 스크롤바의 너비 */
+}
+
+.terms-conts::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #E3E3E3 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.terms-conts::-webkit-scrollbar-track {
+    background: #F8F7F7 0% 0% no-repeat padding-box; /*스크롤바 뒷 배경 색상*/
+    border-radius: 5px;
+    opacity: 1;
+}
+
+a.btn-layerClose6 {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #F8F7F7;
+    opacity: 1;
+    margin: 13px 0 0 175px;
+}
+
+
+p.btn-layerClose6 {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #F8F7F7;
+    opacity: 1;
+    margin: 13px 0 0 0;
+}
+
+p.btn-layerClose6:hover {
+    color: #fff;
+}
+
+/* -------------- 팝업 type 6 css end -------------*/
+
+
+/* -------------- 팝업 type 7 css start -------------*/
+.pop-layer7 .btn-close {
+    cursor: pointer;
+    margin-left: 575px;
+}
+
+.pop-layer7 .pop-container7 {
+    padding: 20px 25px;
+}
+
+.pop-layer7 p.ctxt7 {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+    line-height: 18px;
+}
+
+.pop-layer7 .btn-r-type7 {
+    width: 638px;
+    height: 40px;
+    top: 300px;
+    left: 0px;
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+    color: #F8F7F7;
+    opacity: 1;
+    font-size: 12px;
+}
+
+.pop-layer7 {
+    position: fixed;
+    top: 29%;
+    left: 34%;
+    z-index: 10;
+    width: 638px;
+    height: 340px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: none;
+}
+
+.btn-r-type7 .btn-layer-close {
+    display: inline-block;
+    width: 319px;
+    height: 40px;
+    line-height: 42px;
+    background: #768AA7;
+    opacity: 1;
+}
+
+.btn-r-type7 .btn-layer-ok {
+    display: inline-block;
+    width: 319px;
+    height: 40px;
+    line-height: 42px;
+    background: #22214B;
+    opacity: 1;
+}
+
+.btn-r-type7 span:hover {
+    color: #fff;
+}
+
+.pop-layer7 .pop-info-subject-type1 {
+    text-align: center;
+}
+
+.pop-layer7 .pop-info-subject-type1 > p {
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+.pop-layer7 .email-send-content {
+    margin-top: 40px;
+}
+
+.pop-layer7 .email-send-content > div {
+    width: 500px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.pop-layer7 .email-send-content > div > span {
+    font-size: 14px;
+    padding-right: 30px;
+}
+
+.pop-layer7 .email-send-content > div > input {
+    border: none;
+    border-bottom: 1px solid #768AA7;
+    opacity: 1;
+    padding-bottom: 13px;
+    width: 320px;
+    padding-right: 70px;
+}
+
+.email-check {
+    position: absolute;
+    width: 50px;
+    font-size: 12px;
+    color: #22214B;
+    top: 178px;
+    right: 35px;
+    cursor: pointer;
+}
+
+.pop-layer7 .email-send-content > div > p {
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #ACB7C7;
+    opacity: 1;
+    margin-left: 117px;
+}
+
+/* -------------- 팝업 type 3 css end -------------*/

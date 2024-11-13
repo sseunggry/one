@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+@media print {
+    html, body {
+        -webkit-print-color-adjust: exact;
+        width: 210mm;
+        height: 297mm;
+        zoom: 70%;
+        margin-left: -360px;
+    }
+
+    .result-report-print {
+        display: none;
+    }
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+#content {
+    position: absolute;
+    left: 360px;
+    top: 75px;
+}
+
+.monitoring-msg-send-result-report-subject {
+    top: 35px;
+    left: 50px;
+    position: absolute;
+    width: 155px;
+    height: 24px;
+}
+
+.monitoring-msg-send-result-report-subject > p {
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+.monitoring-msg-send-history-list {
+    position: absolute;
+    top: 57px;
+    left: 1340px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 50px;
+}
+
+.monitoring-msg-send-result-report-cont .report-subject {
+    top: 68px;
+    left: 200px;
+    position: absolute;
+    width: 114px;
+    height: 24px;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+
+.result-report-print {
+    top: 183px;
+    left: 1337px;
+    width: 50px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.result-report-print > span {
+    vertical-align: super;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+.result-report-table {
+    top: 225px;
+    left: 74px;
+    opacity: 1;
+    position: absolute;
+}
+
+.result-report-table table {
+    width: 1313px;
+    height: 80px;
+    border-collapse: collapse;
+}
+
+.result-report-table th {
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+
+.result-report-table td {
+    font-size: 12px;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+
+.result-report-table th:nth-child(1) {
+    border-right: 1px solid #768AA7;
+}
+
+.result-report-table th:nth-child(6) {
+    border-right: 1px solid #768AA7;
+}
+
+.result-report-table th:nth-child(7) {
+    padding-left: 15px;
+}
+
+.result-report-table tr {
+    text-align: center;
+    border: 1px solid #768AA7;
+}
+
+.result-report-table td:nth-child(1) {
+    border-right: 1px solid #768AA7;
+}
+
+.result-report-table td:nth-child(6) {
+    border-right: 1px solid #768AA7;
+}
+
+.result-report-table td:nth-child(7) {
+    padding-left: 15px;
+}
+
+.report-bar-graph-cont .monthly-sent-head-layout {
+    top: 386px;
+    left: 200px;
+    position: absolute;
+}
+
+.report-bar-graph-cont .monthly-sent-subject {
+    width: 92px;
+    height: 24px;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+
+.report-bar-graph-cont .monthly-sent-usage-cont {
+    top: 21px;
+    left: 1203px;
+    position: absolute;
+    width: 285px;
+}
+
+.report-bar-graph-cont .monthly-sent-usage-icon {
+    width: 20px;
+    height: 20px;
+    line-height: 22px;
+    text-align: center;
+    display: inline-block;
+    background: rgba(255, 111, 0, 1) 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+    font-size: 11px;
+    color: #F8F7F7;
+}
+
+.report-bar-graph-cont span {
+    font-size: 12px;
+    color: #1A1A1A;
+    opacity: 1;
+    width: 51px;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+
+.report-bar-graph-cont .chart-bar-div {
+    margin: 390px 0 0 301px;
+    position: absolute;
+}
+

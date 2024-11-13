@@ -1,0 +1,53 @@
+/* ============================ form ============================ */
+.form-li {
+    position: relative;
+    margin-top: 20px;
+}
+
+.form-li:first-child {
+    margin-top: 0;
+}
+
+.form-submit {
+    margin-top: 20px;
+}
+
+.form-checkList-box {
+    padding-left: 100px;
+}
+
+.form-checkList {
+    padding-top: 10px;
+}
+
+.form-checkList:first-child {
+    padding-top: 0;
+}
+
+
+.required::after {
+    content: '*';
+    color: #4A7CF7;
+    padding-left: 5px;
+}
+
+/* ======================================================== */
+
+/* Form Row = label + input */
+.form-row-label .form-li {
+    display: flex;
+    align-items: center;
+}
+
+.form-row-label .form-label {
+    display: block;
+    width: 100px;
+}
+
+.form-row-label .input-box {
+    width: calc(100% - 100px);
+}
+
+.form-row-label .form-checkList-box {
+    display: block;
+}

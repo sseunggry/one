@@ -1,0 +1,36 @@
+<svg id="img_intro" xmlns="http://www.w3.org/2000/svg" width="1344" height="618" viewBox="0 0 1344 618">
+    <text id="TSB_Cloud_System" data-name="TSB Cloud System" transform="translate(0 244)" fill="#060730" font-size="100" font-family="Lexend" font-weight="700">
+        <tspan x="0" y="0">TSB Cloud System</tspan>
+    </text>
+    <text id="다양한_클라이언트에서_동시_다발적인_대량_메시지_이벤트를_처리하는_모바일_PUSH_메시지_클라우드_시스템" data-name="다양한 클라이언트에서 동시 다발적인 대량 메시지 이벤트를 처리하는
+모바일 PUSH 메시지 클라우드 시스템" transform="translate(0 47)" fill="#1a1a1a" font-size="50" font-family="Pretendard-Thin, Pretendard" font-weight="200">
+        <tspan x="0" y="0">다양한 클라이언트에서 동시 다발적인 대량 메시지 이벤트를 처리하는</tspan>
+        <tspan font-family="Pretendard-Bold, Pretendard" font-weight="700">
+            <tspan x="0" y="65">모바일</tspan>
+            <tspan y="65" font-family="Pretendard-Thin, Pretendard" font-weight="200"></tspan>
+            <tspan y="65">PUSH 메시지 클라우드 시스템</tspan>
+        </tspan>
+    </text>
+    <g id="Group_1655" data-name="Group 1655" transform="translate(-720 -96)">
+        <text id="퍼블릭_프라이빗_하이브리드_등_다양한_형태의_인프라_환경을_제공합니다." data-name="퍼블릭, 프라이빗, 하이브리드 등 다양한 형태의 인프라 환경을 제공합니다." transform="translate(730 471)" fill="#1a1a1a" font-size="28"
+              font-family="Pretendard-Regular, Pretendard">
+            <tspan x="0" y="0">퍼블릭, 프라이빗, 하이브리드 등 다양한 형태의 인프라 환경을 제공합니다.</tspan>
+        </text>
+        <text id="예약_정기_메시지_발송_및_이력_관리를_포함한_실시간_대량_메시지_관리가_가능합니다." data-name="예약, 정기 메시지 발송 및 이력 관리를 포함한 실시간 대량 메시지 관리가 가능합니다." transform="translate(730 530)" fill="#1a1a1a" font-size="28"
+              font-family="Pretendard-Regular, Pretendard">
+            <tspan x="0" y="0">예약, 정기 메시지 발송 및 이력 관리를 포함한 실시간 대량 메시지 관리가 가능합니다.</tspan>
+        </text>
+        <text id="편리한_개발_환경에서_표준화된_아키텍처로_쉽고_빠르게_서비스를_구축합니다." data-name="편리한 개발 환경에서 표준화된 아키텍처로 쉽고 빠르게 서비스를 구축합니다." transform="translate(730 589)" fill="#1a1a1a" font-size="28"
+              font-family="Pretendard-Regular, Pretendard">
+            <tspan x="0" y="0">편리한 개발 환경에서 표준화된 아키텍처로 쉽고 빠르게 서비스를 구축합니다.</tspan>
+        </text>
+        <text id="유연하고_확장성_높은_클라우드_플랫폼을_통해_고객의_요구에_맞게_최적화된_서비스_운영이_가능합니다." data-name="유연하고 확장성 높은 클라우드 플랫폼을 통해 고객의 요구에 맞게 최적화된 서비스 운영이 가능합니다." transform="translate(730 648)" fill="#1a1a1a"
+              font-size="28" font-family="Pretendard-Regular, Pretendard">
+            <tspan x="0" y="0">유연하고 확장성 높은 클라우드 플랫폼을 통해 고객의 요구에 맞게 최적화된 서비스 운영이 가능합니다.</tspan>
+        </text>
+        <text id="MOM_Message_Oriented_Middleware_기반_발행_및_구독_Pub_Sub_구조의_미들웨어입니다._" data-name="MOM(Message Oriented Middleware) 기반 발행 및 구독(Pub   Sub) 구조의 미들웨어입니다.  " transform="translate(730 707)"
+              fill="#1a1a1a" font-size="28" font-family="Pretendard-Regular, Pretendard">
+            <tspan x="0" y="0" xml:space="preserve">MOM(Message Oriented Middleware) 기반 발행 및 구독(Pub   Sub) 구조의 미들웨어입니다.  </tspan>
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,163 @@
+.srh-wrap {
+    padding: 0 24px;
+}
+
+.srh-row {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.srh-row.space-between {
+    justify-content: space-between;
+}
+
+.srh-row:first-child {
+    padding-top: 0;
+}
+
+.srh-colgroup {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.srh-col {
+    margin-right: 20px;
+}
+
+.srh-label {
+    width: 90px;
+}
+
+.srh-datepicker-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.srh-datepicker-row .srh-date-box {
+    margin-left: 8px;
+}
+
+.srh-datepicker-row .input-date {
+    width: 100px;
+    height: 32px;
+    border-radius: 7px;
+    transition: .5s;
+    background-repeat: no-repeat;
+    background-position: 5px 3px;
+    background-image: url(/images/icon/icon_datepicker.svg);
+    background-position: 95% center;
+}
+
+.srh-datepicker-row .input-date.open {
+    width: 215px;
+    border-color: var(--lightblue);
+    background-color: var(--lightblue);
+    background-image: url(/images/icon/icon_datepicker.svg);
+}
+
+.srh-datepicker-row .input-date::-webkit-input-placeholder {
+    color: var(--fontColor);
+}
+
+.srh-datepicker-row .input-date:-moz-placeholder {
+    color: var(--fontColor);
+}
+
+.srh-datepicker-row .input-date::-moz-placeholder {
+    color: var(--fontColor);
+}
+
+.srh-datepicker-row .input-date:-ms-input-placeholder {
+    color: var(--fontColor);
+}
+
+.srh-date-sort {
+    display: flex;
+}
+
+.srh-date-sort .btn {
+    padding: 6px 14px;
+    margin-left: 8px;
+    border-radius: 7px;
+    transition: .5s;
+}
+
+.srh-date-sort .btn:first-child {
+    margin-left: 0;
+}
+
+.srh-date-sort .btn.active {
+    background-repeat: no-repeat;
+    background-color: var(--lightblue);
+    border-color: var(--lightblue);
+}
+
+.srh-date-sort .btn .icon-check-btn {
+    display: none;
+}
+
+.srh-date-sort .btn.active .icon-check-btn {
+    display: block;
+    transition: .5s;
+}
+
+.srh-date-box {
+    display: flex;
+    align-items: center;
+}
+
+.srh-date-box .srh-extra {
+    display: block;
+    width: 20px;
+    text-align: center;
+}
+
+.srh-type-select {
+    width: 120px;
+    height: 32px;
+    margin-right: 5px;
+    border-radius: 7px;
+}
+
+.srh-input-text {
+    width: 200px;
+    height: 32px;
+    border-radius: 7px;
+}
+
+.btn-search-submit {
+    height: 40px;
+}
+
+.btn-reset {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background-color: var(--lightgrey200);
+}
+
+.btn-reset .icon {
+    margin-right: 0;
+}
+
+.srh-keyword-box {
+    display: flex;
+    gap: 8px;
+    flex-grow: 1;
+}
+
+.srh-area {
+    padding: 32px 40px;
+    border-radius: 5px;
+    border: 1px solid var(--borderColor100);
+    background: var(--backgroundColor);
+}
+
+.srh-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}

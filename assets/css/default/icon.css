@@ -1,0 +1,652 @@
+.icon {
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.icon-close {
+    width: 24px;
+    height: 24px;
+    background-image: url(/images/icon/icon_close.svg);
+}
+
+.icon-check-btn {
+    width: 18px;
+    height: 18px;
+    background-image: url(/images/icon/icon_btn_check.svg);
+}
+
+.icon-append-btn {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_plus.svg);
+    background-size: contain;
+}
+
+.icon-append-btn-black {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_plus_black.svg);
+    background-size: contain;
+}
+
+.icon-report-btn {
+    width: 18px;
+    height: 18px;
+    background-image: url(/images/icon/icon_report2.svg);
+}
+
+.icon-glb-menu {
+    width: 24px;
+    height: 24px;
+    background-image: url(/images/icon/icon_header_menu.svg);
+    background-size: auto;
+}
+
+.icon-glb-menu-noti {
+    width: 24px;
+    height: 24px;
+    background-image: url(/images/icon/icon_notifications.svg);
+}
+
+.icon-glb-menu-setting {
+    width: 24px;
+    height: 24px;
+    background-image: url(/images/icon/icon_setting.svg);
+}
+
+.icon-glb-menu-setting2 {
+    width: 24px;
+    height: 24px;
+    background-image: url(/images/icon/icon_menu_setting.svg);
+}
+
+.icon-glb-menu-guide {
+    width: 24px;
+    height: 24px;
+    background-image: url(/images/icon/icon_guide.svg);
+}
+
+.icon-glb-menu-user {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(/images/icon/icon_profile_default.jpg);
+    background-size: cover;
+    border: 1px solid var(--Color-2, #DADCE0);
+}
+
+.icon-state-suc {
+    width: 18px;
+    height: 18px;
+    background-image: url(/images/icon/icon_btn_suc.svg);
+}
+
+.icon-state-ing {
+    width: 18px;
+    height: 18px;
+    background-image: url(/images/icon/icon_btn_sending.svg);
+}
+
+.icon-state-wait {
+    width: 18px;
+    height: 18px;
+    background-image: url(/images/icon/icon_btn_wait.svg);
+}
+
+.icon-table-list-close {
+    width: 18px;
+    height: 18px;
+    background-image: url(/images/icon/icon_table_list.svg);
+}
+
+.icon-table-list-expend {
+    width: 18px;
+    height: 18px;
+    background-image: url(/images/icon/icon_table_expend.svg);
+}
+
+.icon-util-report {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_peper.svg);
+    background-position: center center;
+}
+
+.icon-util-edit {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_edit.svg);
+    background-position: center center;
+}
+
+.icon-util-copy {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_copy.svg);
+    background-position: center center;
+}
+
+.icon-util-campain {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_campain.svg);
+    background-position: center center;
+}
+
+.icon-util-delet {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_delet.svg);
+    background-position: center center;
+}
+
+.icon-util-open {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_row_open.svg);
+    background-position: center center;
+    background-size: contain;
+}
+
+.icon-util-close {
+    width: 24px;
+    height: 24px;
+    background-image: url(/images/icon/icon_row_close.svg);
+    background-position: center center;
+    background-size: contain;
+}
+
+.icon-viewer {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon-viewer.svg);
+    background-position: center center;
+    background-size: contain;
+}
+
+.icon-nav {
+    width: 45px;
+    height: 45px;
+    background-position: center center;
+}
+
+.icon-nav-M01 {
+    background-image: url(/images/icon/icon_dashboard.svg);
+}
+
+.icon-nav-M02001 {
+    background-image: url(/images/icon/icon_letter.svg);
+}
+
+/* 메시지함 */
+.icon-nav-M02002 {
+    background-image: url(/images/icon/icon_pencil.svg);
+}
+
+/* 신규메시지 */
+.icon-nav-M02003 {
+    background-image: url(/images/icon/icon_template.svg);
+}
+
+/* 템플릿 */
+.icon-nav-M03001 {
+    background-image: url(/images/icon/icon_segment.svg);
+}
+
+/* 세그먼트 */
+.icon-nav-M03002 {
+    background-image: url(/images/icon/icon_new_sagment.svg);
+}
+
+.icon-nav-M03003 {
+    background-image: url(/images/icon/icon_group.svg);
+}
+
+.icon-nav-M03004 {
+    background-image: url(/images/icon/icon-date.svg);
+}
+
+.icon-nav-M04001 {
+    background-image: url(/images/icon/icon_chart.svg);
+}
+
+/* 사용량통계 */
+.icon-nav-M04002 {
+    background-image: url(/images/icon/icon_msg_chart.svg);
+}
+
+/* 유저 분석 */
+.icon-nav-M04003 {
+    background-image: url(/images/icon/icon_sys_chart.svg);
+}
+
+/* PC PUSH 발송 */
+.icon-nav-M05001 {
+    background-image: url(/images/icon/icon_pencil.svg);
+}
+
+/* PC PUSH 이력 */
+.icon-nav-M05002 {
+    background-image: url(/images/icon/icon_letter.svg);
+}
+
+/* 캠페인 효과 */
+.icon-nav-M06004 {
+    background-image: url(/images/icon/icon_app_user.svg);
+}
+
+/* 앱사용자정보 */
+.icon-nav-M06001 {
+    background-image: url(/images/icon/icon_user_manage.svg);
+}
+
+/* 사용자관리 */
+.icon-nav-M06002 {
+    background-image: url(/images/icon/icon_auth_manage.svg);
+}
+
+/* 권한관리 */
+.icon-nav-M06003 {
+    background-image: url(/images/icon/icon_menu.svg);
+}
+
+/* 채널관리 */
+
+.icon-segment {
+    background-image: url(/images/icon/icon_segment.svg);
+}
+
+.icon-app-user {
+    background-image: url(/images/icon/icon_app_user.svg);
+}
+
+.icon-profile-change {
+    background-image: url(/images/icon/icon_profile.svg);
+}
+
+.icon-password-change {
+    background-image: url(/images/icon/icon_password.svg);
+}
+
+.icon-application-admin {
+    background-image: url(/images/icon/icon_application.svg);
+}
+
+.icon-nav-navigation {
+    width: 40px;
+    height: 40px;
+    background-image: url(/images/icon/icon_navgation.svg);
+    background-position: center center;
+}
+
+.plusminus {
+    position: relative;
+    Width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.plusminus:before {
+    content: "";
+    display: block;
+    background-color: #333;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transition: .35s;
+    width: 100%;
+    height: 2px;
+    transform: translatey(-50%);
+}
+
+.plusminus:after {
+    content: "";
+    display: block;
+    background-color: #333;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transition: .35s;
+    width: 100%;
+    height: 2px;
+    transform: translatey(-50%) rotate(90deg);
+}
+
+.plusminus.open:before {
+    transform: translatey(-50%) rotate(-90deg);
+    opacity: 0;
+}
+
+.plusminus.open:after {
+    transform: translatey(-50%) rotate(0);
+}
+
+
+.icon-aos {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_android.svg);
+    background-size: contain;
+}
+
+.icon-ios {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_ios.svg);
+    background-size: contain;
+}
+
+.icon-file {
+    width: 24px;
+    height: 24px;
+    background-image: url(/images/icon/icon_file.svg);
+    background-size: contain;
+}
+
+.icon-menu-order {
+    width: 24px;
+    height: 24px;
+    background-image: url(/images/icon/icon_menu_admin.svg);
+    background-size: contain;
+}
+
+.icon-excel {
+    width: 24px;
+    height: 24px;
+    background-image: url(/images/icon/icon_excel.svg);
+    background-size: contain;
+}
+
+.icon-delete {
+    width: 24px;
+    height: 24px;
+    background-image: url(/images/icon/icon_delete.svg);
+    background-size: contain;
+}
+
+.icon-copy {
+    width: 24px;
+    height: 24px;
+    background-image: url(/images/icon/icon_copy.svg);
+    background-size: contain;
+}
+
+.icon-copys {
+    width: 24px;
+    height: 24px;
+    background-image: url(/images/icon/icon_copys.svg);
+    background-size: contain;
+}
+
+.icon-edit {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_edit.svg);
+    background-size: contain;
+}
+
+.icon-preview {
+    width: 24px;
+    height: 24px;
+    background-image: url(/images/icon/icon_preview.svg);
+    background-size: contain;
+}
+
+.icon-csv-download {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_csv_download_white.svg);
+    background-size: contain;
+}
+
+.icon-advanced {
+    width: 10px;
+    height: 6px;
+    background-image: url(/images/icon/icon-advanced.svg);
+    background-size: contain;
+}
+
+.icon-up {
+    width: 18px;
+    height: 18px;
+    background-image: url(/images/icon/icon-up.svg);
+    background-size: contain;
+}
+
+
+.icon-reset {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon-reset.svg);
+    background-size: contain;
+}
+
+.icon-date {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon-date.svg);
+    background-size: contain;
+}
+
+.icon-live {
+    width: 18px;
+    height: 6px;
+    background-image: url(/images/icon/icon_live.svg);
+    background-size: contain;
+}
+
+.icon_question {
+    width: 14px;
+    height: 14px;
+    background-image: url(/images/icon/icon_question.svg);
+    background-size: contain;
+}
+
+/* pagination */
+.icon-left-double-arrow {
+    width: 9.34px;
+    height: 8.92px;
+    background-image: url(/images/icon/icon_left_double_arrow.svg);
+    background-size: contain;
+}
+
+.icon-left-arrow {
+    width: 9.34px;
+    height: 8.92px;
+    background-image: url(/images/icon/icon_left_arrow.svg);
+    background-size: contain;
+}
+
+.icon-right-double-arrow {
+    width: 9.34px;
+    height: 8.92px;
+    background-image: url(/images/icon/icon_right_double_arrow.svg);
+    background-size: contain;
+}
+
+.icon-right-arrow {
+    width: 9.34px;
+    height: 8.92px;
+    background-image: url(/images/icon/icon_right_arrow.svg);
+    background-size: contain;
+}
+
+.icon-right-arrow-gray {
+    width: 24px;
+    height: 24px;
+    background-image: url(/images/icon/icon_right_arrow_gray.svg);
+    background-size: contain;
+}
+
+.icon-reset {
+    width: 14px;
+    height: 14px;
+    background-image: url(/images/icon/icon_reset.svg);
+    background-size: contain;
+}
+
+.icon-plus2 {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_plus2.svg);
+    background-size: contain;
+}
+
+/* user */
+.icon-spec-user {
+    width: 32px;
+    height: 32px;
+    background-image: url(/images/icon/icon_spec_user.svg);
+    background-size: contain;
+}
+
+.icon-spec-user-gray {
+    width: 40px;
+    height: 24px;
+    background-image: url(/images/icon/icon_spec_user_gray.svg);
+    background-size: contain;
+}
+
+.icon-spec-user-white {
+    width: 27px;
+    height: 16px;
+    background-image: url(/images/icon/icon_spec_user_white.svg);
+    background-size: contain;
+}
+
+.icon-test-user {
+    width: 32px;
+    height: 32px;
+    background-image: url(/images/icon/icon_test_user.svg);
+    background-size: contain;
+}
+
+.icon-test-user-gray {
+    width: 40px;
+    height: 23px;
+    background-image: url(/images/icon/icon_test_user_gray.svg);
+    background-size: contain;
+}
+
+.icon-test-user-white {
+    width: 28px;
+    height: 16px;
+    background-image: url(/images/icon/icon_test_user_white.svg);
+    background-size: contain;
+}
+
+.icon-all-user {
+    width: 32px;
+    height: 32px;
+    background-image: url(/images/icon/icon_all_user.svg);
+    background-size: contain;
+}
+
+.icon-all-user-gray {
+    width: 41px;
+    height: 40px;
+    background-image: url(/images/icon/icon_all_user_gray.svg);
+    background-size: contain;
+}
+
+.icon-all-user-white {
+    width: 28px;
+    height: 28px;
+    background-image: url(/images/icon/icon_all_user_white.svg);
+    background-size: contain;
+}
+
+.icon-add-user {
+    width: 32px;
+    height: 32px;
+    background-image: url(/images/icon/icon_add_user.svg);
+    background-size: contain;
+}
+
+.icon-add-user-gray {
+    width: 41px;
+    height: 26px;
+    background-image: url(/images/icon/icon_add_user_gray.svg);
+    background-size: contain;
+}
+
+.icon-add-user-white {
+    width: 28px;
+    height: 18px;
+    background-image: url(/images/icon/icon_add_user_white.svg);
+    background-size: contain;
+}
+
+/* content */
+.icon-content-guide {
+    width: 18px;
+    height: 18px;
+    background-image: url(/images/icon/icon_guide.svg);
+    background-size: contain;
+}
+
+.icon-add-segment {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_add_segment.svg);
+    background-size: contain;
+}
+
+.icon-add-tag {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_tag.svg);
+    background-size: contain;
+}
+
+.icon-x-blue {
+    width: 20px;
+    height: 20px;
+    background: no-repeat 50% 50% url(/images/icon/icon_x_blue.svg);
+    background-size: auto;
+}
+
+/* csv */
+.icon-csv-upload {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_csv_upload.svg);
+    background-size: contain;
+}
+
+.icon_csv-download {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_csv_download.svg);
+    background-size: contain;
+}
+
+/* no data */
+.icon-no-data-message {
+    width: 240px;
+    height: 268px;
+    background-image: url(/images/noData/message.svg);
+    background-size: contain;
+}
+
+.icon-no-data-searchMessage {
+    width: 240px;
+    height: 268px;
+    background-image: url(/images/noData/searchMessage.svg);
+    background-size: contain;
+}
+
+.icon-no-data-template {
+    width: 240px;
+    height: 268px;
+    background-image: url(/images/noData/template.svg);
+    background-size: contain;
+}
+
+.icon-no-data-member {
+    width: 240px;
+    height: 268px;
+    background-image: url(/images/noData/member.svg);
+    background-size: contain;
+}

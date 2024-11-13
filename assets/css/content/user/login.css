@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    font-family: 'Pretendard-Regular';
+    color: #ACB7C7;
+}
+
+.label {
+    font-family: 'Pretendard-Regular';
+}
+
+.login-cont .masking-pwd-icon > input[type=checkbox] {
+    font-family: 'Pretendard-Regular';
+    display: none;
+}
+
+.login-cont .masking-pwd-icon > input[type=checkbox] + label {
+    font-family: 'Pretendard-Regular';
+    cursor: pointer;
+    padding-left: 30px;
+    display: inline-block;
+    font-size: 12px;
+    color: #22214B;
+    opacity: 1;
+    width: 56px;
+    height: 20px;
+    margin: 0 0 0 86px;
+    background-repeat: no-repeat;
+    background-image: url('/image/ico_pw_off.svg');
+}
+
+.login-cont .masking-pwd-icon > input[type=checkbox]:checked + label {
+    background-image: url('/image/ico_pw_on.svg');
+}
+
+.gray-navy-line {
+    font-family: 'Pretendard-Regular';
+    border-bottom: 1px solid #768AA7;
+    width: 435px;
+    margin-left: 125px;
+}
+
+.login-cont .gray-navy-line {
+    width: 400px;
+    margin: 15px 0 0 86px;
+}
+
+.login-cont div > input[type=checkbox] {
+    font-family: 'Pretendard-Regular';
+    display: none;
+}
+
+.login-cont > div > div > input[type=checkbox] + label {
+    font-family: 'Pretendard-Regular';
+    cursor: pointer;
+    padding-left: 30px;
+    display: inline-block;
+    font-size: 12px;
+    color: #22214B;
+    opacity: 1;
+    width: 56px;
+    height: 20px;
+    margin: 10px 0 0 86px;
+    background-repeat: no-repeat;
+    background-image: url('/image/cb_off.svg');
+}
+
+.login-cont > div > div > input[type=checkbox]:checked + label {
+    font-family: 'Pretendard-Regular';
+    background-image: url('/image/cb_on.svg');
+}
+
+.login-cont > div > div > input[type=checkbox] + label > span {
+    font-family: 'Pretendard-Regular';
+    vertical-align: sub;
+}
+
+.login-cont > div > div > .reset-pwd {
+    margin-left: 235px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.txt-underline-navy {
+    font-family: 'Pretendard-Regular';
+    border-bottom: 1px solid #22214B;
+    padding-bottom: 1px;
+}
+
+.login-title {
+    font-size: 36px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+    position: relative;
+    top: 58px;
+    left: 914px;
+    width: 95px;
+    height: 42px;
+}
+
+.login-cont {
+    height: 465px;
+    width: 490px;
+    margin: 160px auto;
+}
+
+.login-cont .login-input {
+    font-family: 'Pretendard-Regular';
+    width: 393px;
+    padding-bottom: 17px;
+    border: none;
+    background-color: transparent;
+    margin-left: 46px;
+    position: absolute;
+}
+
+.login-cont .masking-pwd-icon {
+    position: absolute;
+    width: 0px;
+    margin: -36px 0 0 381px;
+}
+
+.login-cont .login-btn-cont {
+    text-align: -webkit-center;
+    margin-top: 100px;
+}
+
+.login-cont .login-btn-cont .login-btn {
+    width: 300px;
+    height: 50px;
+    background: #ACB7C7 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #F8F7F7;
+    opacity: 1;
+}
+
+.login-cont .login-btn-cont .sign-up-btn {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #22214B;
+    background: transparent;
+    border-radius: 50px;
+    opacity: 1;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #22214B;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.login-cont .login-result-txt {
+    text-align: center;
+    margin-top: 60px;
+    height: 20px;
+}
+
+.login-cont .login-result-txt > div {
+    display: none;
+}
+
+.login-cont .login-result-txt > div > span {
+    margin-top: 0px;
+    color: #FF0000;
+    opacity: 1;
+    font-size: 12px;
+    vertical-align: text-top;
+    margin-left: 8px;
+}
+
+.ico-info-x {
+    content: url(/image/ico_info_x.svg);
+}
+
+.ico-info-o {
+    content: url(/image/ico_info_o.svg);
+}
+
+button {
+    font-family: 'Pretendard-Medium';
+    border: none;
+    display: block;
+}
+
+.login-cont button.login-btn:enabled {
+    background: #22214B;
+    cursor: pointer;
+}
+
+.login-cont button.login-btn:disabled {
+    background: #ACB7C7;
+    pointer-events: none;
+}

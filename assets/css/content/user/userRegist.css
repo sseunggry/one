@@ -1,0 +1,303 @@
+@charset "UTF-8";
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    font-family: 'Pretendard-Regular';
+    color: #ACB7C7;
+}
+
+input {
+    font-family: 'Pretendard-Regular';
+}
+
+.sign-up-select-type {
+    width: 570px;
+    height: 55px;
+    text-align: center;
+}
+
+.sign-up-select-type > span {
+    cursor: pointer;
+    font: normal normal 300 35px Pretendard;
+    letter-spacing: 0px;
+    color: #ACB7C7;
+    opacity: 1;
+}
+
+/* .sign-up-select-type > span:hover{
+
+} */
+
+.sign-up-select-type > span.active {
+    border-bottom: 3px solid #22214B;
+    font-size: 36px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    font-family: 'Pretendard-Medium';
+    opacity: 1;
+    padding-bottom: 5px;
+}
+
+.req-value-mark {
+    color: #FF0000;
+    letter-spacing: 3px;
+}
+
+.sign-up-input {
+    width: 434px;
+    height: 25px;
+    line-height: 25px;
+    padding-bottom: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+.gray-navy-line {
+    border-bottom: 1px solid #768AA7;
+    width: 435px;
+    margin-left: 125px;
+}
+
+.auth-number-timer {
+    color: #768AA7;
+    opacity: 1;
+    font-size: 12px;
+    padding-right: 5px;
+    width: 32px;
+    display: inline-block;
+}
+
+.txt-underline-navy {
+    border-bottom: 1px solid #22214B;
+    padding-bottom: 1px;
+}
+
+.sign-up-enterprise {
+    margin-top: 100px;
+}
+
+.sign-up-enterprise > div {
+    height: 96px;
+}
+
+.sign-up-enterprise > div > button.auth-number {
+    font-size: 16px;
+    letter-spacing: 0px;
+    opacity: 1;
+    display: inline-block;
+    background: transparent;
+}
+
+.sign-up-enterprise > div > button.auth-number:enabled {
+    color: #22214B;
+    cursor: pointer;
+}
+
+.sign-up-enterprise > div > button.auth-number:disabled {
+    color: #ACB7C7;
+}
+
+.sign-up-enterprise > div > button.auth-number-chk {
+    font-size: 16px;
+    letter-spacing: 0px;
+    opacity: 1;
+    display: inline-block;
+    background: transparent;
+}
+
+.sign-up-enterprise > div > button.auth-number-chk:enabled {
+    color: #22214B;
+    cursor: pointer;
+}
+
+.sign-up-enterprise > div > button.auth-number-chk:disabled {
+    color: #ACB7C7;
+}
+
+.sign-up-enterprise > div > span:first-child {
+    width: 120px;
+    display: inline-block;
+}
+
+
+.sign-up-enterprise .verify-failed-txt {
+    color: #FF0000;
+    font-size: 12px;
+    margin: 5px 0 0 125px;
+    height: 63px;
+
+}
+
+.sign-up-enterprise .verify-success-txt {
+    color: #1CA3DD;
+    opacity: 1;
+    font-size: 12px;
+    margin: 5px 0 0 125px;
+    height: 63px;
+}
+
+
+.sign-up-enterprise .sign-up-terms-check {
+    width: 570px;
+    height: 75px;
+    margin: -50px 0 100px 0;
+}
+
+.sign-up-enterprise .sign-up-terms-check input[type=checkbox] {
+    font-family: 'Pretendard-Regular';
+    display: none;
+}
+
+.sign-up-enterprise .sign-up-terms-check input[type=checkbox] + label {
+    font-family: 'Pretendard-Regular';
+    cursor: pointer;
+    padding-left: 30px;
+    display: inline-block;
+    font-size: 12px;
+    color: #22214B;
+    opacity: 1;
+    width: 250px;
+    height: 20px;
+    margin-left: 125px;
+    background-repeat: no-repeat;
+    background-image: url('/image/cb_off.svg');
+}
+
+.sign-up-enterprise .sign-up-terms-check input[type=checkbox]:checked + label {
+    font-family: 'Pretendard-Regular';
+    background-image: url('/image/cb_on.svg');
+}
+
+.sign-up-enterprise .sign-up-terms-check input[type=checkbox] + label > span {
+    font-family: 'Pretendard-Regular';
+    vertical-align: sub;
+}
+
+.sign-up-button-layout .sign-up-button {
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: #F8F7F7;
+    opacity: 1;
+    text-align: center;
+    line-height: 52px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.sign-up-personal {
+    margin-top: 100px;
+}
+
+.sign-up-personal > div {
+    height: 96px;
+}
+
+.sign-up-personal > div > button.auth-number {
+    font-size: 16px;
+    letter-spacing: 0px;
+    opacity: 1;
+    display: inline-block;
+    background: transparent;
+}
+
+.sign-up-personal > div > button.auth-number:enabled {
+    color: #22214B;
+    cursor: pointer;
+}
+
+.sign-up-personal > div > button.auth-number:disabled {
+    color: #ACB7C7;
+}
+
+.sign-up-personal > div > button.auth-number-chk {
+    font-size: 16px;
+    letter-spacing: 0px;
+    opacity: 1;
+    display: inline-block;
+    background: transparent;
+}
+
+.sign-up-personal > div > button.auth-number-chk:enabled {
+    color: #22214B;
+    cursor: pointer;
+}
+
+.sign-up-personal > div > button.auth-number-chk:disabled {
+    color: #ACB7C7;
+}
+
+
+.sign-up-personal > div > span:first-child {
+    width: 120px;
+    display: inline-block;
+}
+
+
+.sign-up-personal .verify-failed-txt {
+    color: #FF0000;
+    font-size: 12px;
+    margin: 5px 0 0 125px;
+    height: 63px;
+}
+
+.sign-up-personal .verify-success-txt {
+    color: #1CA3DD;
+    opacity: 1;
+    font-size: 12px;
+    margin: 5px 0 0 125px;
+    height: 63px;
+}
+
+
+.sign-up-personal .sign-up-terms-check {
+    width: 570px;
+    height: 75px;
+    margin: -30px 0 100px 0;
+}
+
+.sign-up-personal .sign-up-terms-check input[type=checkbox] {
+    display: none;
+}
+
+.sign-up-personal .sign-up-terms-check input[type=checkbox] + label {
+    cursor: pointer;
+    padding-left: 30px;
+    display: inline-block;
+    font-size: 12px;
+    color: #22214B;
+    opacity: 1;
+    width: 250px;
+    height: 20px;
+    margin-left: 125px;
+    background-repeat: no-repeat;
+    background-image: url('/image/cb_off.svg');
+}
+
+.sign-up-personal .sign-up-terms-check input[type=checkbox]:checked + label {
+    background-image: url('/image/cb_on.svg');
+}
+
+.sign-up-personal .sign-up-terms-check input[type=checkbox] + label > span {
+    vertical-align: sub;
+}
+
+button {
+    font-family: 'Pretendard-Medium';
+    border: none;
+    display: block;
+}
+
+.sign-up-button-layout button:enabled {
+    background: #22214B;
+    cursor: pointer;
+}
+
+.sign-up-button-layout button:disabled {
+    background: #ACB7C7;
+    pointer-events: none;
+}

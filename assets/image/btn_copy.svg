@@ -1,0 +1,9 @@
+<svg id="btn_copy" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <g id="Group_1653" data-name="Group 1653" transform="translate(-1061 -271)">
+        <path id="Path_1508" data-name="Path 1508" d="M377.778,359a.778.778,0,0,0-.778.778v9.333a.778.778,0,0,0,.778.778h.778v-9.333h9.333v-.778a.778.778,0,0,0-.778-.778Z"
+              transform="translate(687 -85)" fill="#22214b"/>
+        <path id="Path_1509" data-name="Path 1509"
+              d="M381.778,363a.778.778,0,0,0-.778.778v9.333a.778.778,0,0,0,.778.778h9.333a.778.778,0,0,0,.778-.778v-9.333a.778.778,0,0,0-.778-.778Zm.778,9.333v-7.778h7.778v7.778Z"
+              transform="translate(686.111 -85.889)" fill="#22214b" fill-rule="evenodd"/>
+    </g>
+</svg>

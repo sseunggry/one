@@ -1,0 +1,9 @@
+<svg id="ico_lock" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <rect id="Rectangle_342" data-name="Rectangle 342" width="20" height="20" fill="none"/>
+    <g id="Group_1508" data-name="Group 1508" transform="translate(-508.234 -453)">
+        <path id="Path_1280" data-name="Path 1280" d="M705,207v3h-2v-3Z" transform="translate(-185.266 257.941)" fill="#22214b"/>
+        <path id="Path_1281" data-name="Path 1281"
+              d="M702.5,194a4.1,4.1,0,0,0-2.873,1.171,3.972,3.972,0,0,0-1.19,2.829v3.2h-1.625a.807.807,0,0,0-.813.8v7.2a.807.807,0,0,0,.813.8h11.375a.807.807,0,0,0,.813-.8V202a.807.807,0,0,0-.813-.8h-1.625V198a3.972,3.972,0,0,0-1.189-2.829A4.1,4.1,0,0,0,702.5,194Zm-2.438,4v3.2h4.875V198a2.378,2.378,0,0,0-.714-1.7,2.463,2.463,0,0,0-3.447,0A2.378,2.378,0,0,0,700.063,198Zm-2.437,4.8v5.6h9.75v-5.6Z"
+              transform="translate(-183.766 261)" fill="#22214b" fill-rule="evenodd"/>
+    </g>
+</svg>

@@ -1,0 +1,325 @@
+@charset "utf-8";
+
+:root {
+    --mainColor: #1374EE;
+
+    --fontColor: #1D192B;
+    --fontSubColor: #1374EE;
+    --fontSubColor2: #5F6368;
+    --fontSubColor3: #202124;
+    --fontSubColor4: #49454F;
+    --fontSubColor5: #a9a8aa;
+    --fontPurpleColor: #6750A4;
+
+    --borderColor: #79747E;
+    --borderColor100: #DADCE0;
+    --borderTableColor: #C7C7C7;
+
+
+    --white: #fff;
+    --gray: #454545;
+    --lightgrey: #f6f6f6;
+    --lightgrey100: #efefef;
+    --lightgrey200: #b3b3b3;
+    --lightgrey300: #CFCFCF;
+    --lightgrey400: #D9D9D9;
+    --lightgrey500: #979797;
+    --lightgrey600: #a9a3aa;
+    --lightgrey700: #efedf0;
+
+    --darkgrey: #333;
+    --red: #D7322D;
+    --lightred: #F9DEDD;
+
+    --blue: #2376E5;
+    --blue100: #4A7CF7;
+    --blue200: #7ca6f3;
+    --blue300: #a7c4f7;
+    --lightblue: #D4E4FC;
+    --lightblue100: #E5EBF3;
+    --lightblue200: #E8DEF8;
+    --lightblue300: #F2F5FD;
+    --lightblue400: #D8E6FF;
+    --inputFocus: #F6FDFF;
+
+    --backgroundColor: #F9F9FB;
+}
+
+/* Reset */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    font-weight: 400;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+
+html {
+    /* font-family:"Google Sans" */
+    /* font-family: 'Pretendard'; */
+    font-family: 'Noto Sans CJK KR';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+body {
+    color: var(--fontColor);
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: var(--fontColor);
+    background: transparent;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+img {
+    vertical-align: top;
+    max-width: 100%;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input {
+    margin: 0;
+    font-size: inherit;
+    border: none;
+    vertical-align: top;
+    outline: none;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="search"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+    background-color: transparent;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:disabled {
+    opacity: 1;
+}
+
+::-webkit-input-placeholder {
+    font-family: "Pretendard";
+    color: #b3b3b3;
+}
+
+:-moz-placeholder {
+    font-family: "Pretendard";
+    color: #b3b3b3;
+}
+
+::-moz-placeholder {
+    font-family: "Pretendard";
+    color: #b3b3b3;
+}
+
+:-ms-input-placeholder {
+    font-family: "Pretendard";
+    color: #b3b3b3;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: inherit;
+    border-radius: 0;
+    resize: vertical;
+    background-color: transparent;
+    font-family: inherit;
+    -webkit-appearance: none;
+}
+
+strong {
+    font-size: inherit;
+    font-weight: 500;
+    color: inherit;
+}
+
+button {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    color: inherit;
+    font-family: inherit;
+    line-height: 1;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+input[type="text"]::-ms-clear {
+    display: none;
+}
+
+input[type="text"]::-ms-reveal {
+    display: none;
+}
+
+label,
+textarea,
+select,
+a,
+button {
+    box-sizing: border-box;
+}
+
+:disabled {
+    cursor: default;
+}
+
+select {
+    -webkit-appearance: none;
+    appearance: auto;
+    background-color: transparent;
+    border-width: 0;
+    font-weight: 400;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select option {
+    font-weight: 400;
+}
+
+span,
+em {
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+em {
+    font-style: normal;
+}
+
+sup {
+    vertical-align: super;
+}
+
+input::-ms-clear,
+input::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {
+    display: none;
+}

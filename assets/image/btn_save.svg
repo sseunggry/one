@@ -1,0 +1,10 @@
+<svg id="btn_save" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <path id="Path_485" data-name="Path 485" d="M273,370.8a.756.756,0,0,1,.8-.8h2.4v1.6h-1.6v3.2H273Z" transform="translate(-267.682 -368)" fill="#22214b"/>
+    <path id="Path_486" data-name="Path 486" d="M288.2,370.8a.756.756,0,0,0-.8-.8H285v1.6h1.6v1.6h1.6Z" transform="translate(-270.2 -368)" fill="#22214b"/>
+    <path id="Path_487" data-name="Path 487" d="M287.8,388.4a.756.756,0,0,1-.8.8h-4v-1.6h3.2V386h1.6Z" transform="translate(-269.8 -371.6)" fill="#22214b"/>
+    <path id="Path_488" data-name="Path 488" d="M273.52,387.96l3.6-3.6L276,383.24l-2.24,2.24V379h-1.6v6.48l-2.24-2.24-1.12,1.12,3.6,3.6A.773.773,0,0,0,273.52,387.96Z"
+          transform="translate(-266.8 -370.2)" fill="#22214b"/>
+    <path id="Path_489" data-name="Path 489" d="M279,370h3.2v1.6H279Z" transform="translate(-268.941 -368)" fill="#22214b"/>
+    <path id="Path_490" data-name="Path 490" d="M288.6,376v2.4H287V376Z" transform="translate(-270.6 -369.337)" fill="#22214b"/>
+    <path id="Path_491" data-name="Path 491" d="M288.6,383.4V381H287v2.4Z" transform="translate(-270.6 -370.452)" fill="#22214b"/>
+</svg>

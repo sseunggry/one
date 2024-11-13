@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+#header_type2 {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    /* UI Properties */
+    background: #060730 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#inner_header {
+    position: relative;
+    width: 1903px;
+    margin: 0 auto;
+}
+
+#header_type2 #inner_header .logo {
+    display: inline-block;
+    position: fixed;
+    left: 182px;
+    z-index: 999;
+}
+
+#header_type2 #inner_header .logo > a {
+    display: inline-block;
+    position: fixed;
+    top: 15px;
+}
+
+
+#header_type2 #inner_header .logo > a > img {
+    display: inline;
+    position: relative;
+    /* UI Properties */
+    background: transparent
+}
+
+#header_type2 #inner_header .logo > a > .tsb_logo {
+    position: absolute;
+    left: 24px;
+    top: 0px;
+    margin-left: 22px;
+    width: 77px;
+    height: 50px;
+}
+
+#header_type2 #inner_header .gnb {
+    width: 1000px;
+    position: fixed;
+    height: 80px;
+    left: 0px;
+}
+
+
+#header_type2 #inner_header .gnb > ul {
+    position: relative;
+    margin-left: 353px;
+    top: 22px;
+}
+
+#header_type2 #inner_header .gnb > ul > li {
+    list-style: none;
+    position: relative;
+    float: left;
+    width: 92px;
+    margin-left: 35px;
+    margin-top: -6px;
+}
+
+#header_type2 #inner_header .gnb > ul > li > a {
+    text-align: right;
+    letter-spacing: 0px;
+    color: #ACB7C7;
+    opacity: 1;
+    text-decoration: none;
+}
+
+#header_type2 #inner_header .gnb > ul > li > a:hover {
+    text-align: right;
+    letter-spacing: 0px;
+    color: #F8F7F7;
+    opacity: 1;
+    text-decoration: none;
+}
+
+
+#header_type2 #inner_header .gnb > ul > li > .active {
+    text-align: right;
+    letter-spacing: 0px;
+    color: #F8F7F7;
+    opacity: 1;
+    text-decoration: none;
+}
+
+#header_type2 .sub #inner_sub_header > ul > li > .active {
+    text-align: right;
+    letter-spacing: 0px;
+    color: #F8F7F7;
+    opacity: 1;
+    text-decoration: none;
+}
+
+#header_type2 > .sub {
+    display: none;
+    position: absolute;
+    top: 80px;
+    padding-bottom: 5px;
+    background: #060730 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    width: 100%;
+    height: 85px;
+    z-index: 999;
+}
+
+#header_type2 > .sub > #inner_sub_header > ul > li {
+    list-style: none;
+    margin-bottom: 17px;
+}
+
+#header_type2 > .sub > #inner_sub_header > ul > li > a {
+    position: relative;
+    font-size: 14px;
+    color: #ACB7C7;
+    opacity: 1;
+    text-decoration: none;
+    z-index: 1;
+}
+
+#header_type2 > .sub > #inner_sub_header > ul > li > a:hover {
+    letter-spacing: 0px;
+    color: #F8F7F7;
+    opacity: 1;
+    text-decoration: none;
+    z-index: 1;
+}
+
+#header_type2 > .sub > #inner_sub_header > #sub-statistics {
+    position: absolute;
+    margin: 0px 532px;
+}
+
+#header_type2 > .sub > #inner_sub_header > #sub-payment {
+    margin: 10px 428px 0 0;
+}
+
+
+#header_type2 > .sub > #inner_sub_header > #sub-board {
+    position: relative;
+    margin: -72px 179px 0 0;
+}
+
+#header_type2 #inner_header .gnb-account-management > #account > a:hover > img {
+    content: url("/image/btn_set_h.svg");
+}
+
+#header_type2 #inner_header .gnb-account-management > #account > a > img {
+    margin-right: 7px;
+    margin-bottom: -7px;
+}
+
+#header_type2 #inner_header .gnb-account-management > #account > a > img.myInfo-active {
+    content: url("/image/btn_heder_set.svg");
+    margin-right: 9px;
+    vertical-align: super;
+    position: relative;
+    top: 2px;
+}
+
+#header_type2 #inner_header .gnb-account-management > #account {
+    color: #1CA3DD;
+    position: absolute;
+    top: 33px;
+    font-size: 12px;
+    right: 292px;
+}
+
+#header_type2 #inner_header .gnb-account-management > .nim {
+    margin-left: 5px;
+    color: #F8F7F7;
+    opacity: 1;
+    left: 1611px;
+    position: absolute;
+    top: 36px;
+    font-size: 12px;
+}
+
+#header_type2 #inner_header .gnb-account-management > #logout {
+    color: #F8F7F7;
+    opacity: 1;
+    letter-spacing: 0px;
+    font-size: 15px;
+    position: relative;
+    left: 730px;
+    top: 32px;
+}

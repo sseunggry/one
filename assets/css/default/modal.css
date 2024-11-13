@@ -1,0 +1,129 @@
+@import url("./alert.css");
+
+/* ============================ modal ============================ */
+.modal-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal-wrap.double {
+    z-index: 2;
+    background-color: transparent;
+}
+
+.modal-inner {
+    width: 500px;
+    padding: 30px 0 30px 30px;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.modal-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.modal-close-btn {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.modal-body {
+    padding: 10px 30px 0 0;
+    overflow-y: auto;
+    max-height: 750px;
+}
+
+.modal-body.colgroup {
+    display: flex;
+}
+
+.modal-body-col {
+    flex-grow: 1;
+}
+
+.modal-body-col:first-child {
+    padding-right: 30px;
+}
+
+.modal-body-col:last-child {
+    padding-left: 30px;
+}
+
+.modal-body-col .col-title {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--lightgrey300);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.modal-foot {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.modal-wrap.modal-right {
+    justify-content: flex-end;
+}
+
+.modal-right .modal-inner {
+    height: 100%;
+    border-radius: 0;
+    animation: fadeIn 1s, slideIn .8s linear;
+}
+
+.modal-guide {
+    padding: 20px 15px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    background-color: var(--lightgrey);
+    line-height: 24px;
+}
+
+
+/* ======================================================== */
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(500px);
+        animation-timing-function: ease-out;
+    }
+    60% {
+        transform: translateX(-30px);
+        animation-timing-function: ease-in;
+    }
+    80% {
+        transform: translateX(10px);
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translateX(0px);
+        animation-timing-function: ease-in;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

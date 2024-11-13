@@ -1,0 +1,381 @@
+@charset "UTF-8";
+
+.add-app-info-layout {
+    top: 87px;
+    left: 470px;
+    position: absolute;
+}
+
+.add-app-info-input-layout {
+    margin: 70px 0 0 104px;
+    font-size: 12px;
+}
+
+.add-app-info-input-layout > div {
+    height: 100%;
+    margin-bottom: 55px;
+}
+
+
+.add-app-info-input-layout > div > span:first-child {
+    width: 98px;
+    padding-top: 15px;
+    display: inline-block;
+    text-align: right;
+}
+
+.add-app-info-input-layout > div > .add-app-img-div {
+    width: 80px;
+    height: 80px;
+    background: #DCE2EB 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+
+.add-app-info-input-layout > div > .add-app-img-div > img {
+    display: block;
+    margin: 38% auto;
+}
+
+.add-app-info-input-layout > div > span > img {
+    display: none;
+}
+
+.add-app-platform-layout {
+    top: 800px;
+    left: 470px;
+    position: absolute;
+}
+
+.add-app-platform-input-layout {
+    margin: 55px 0 0 104px;
+    font-size: 12px;
+}
+
+.add-app-platform-input-layout .android-chk-layout {
+    margin-bottom: 55px;
+    margin-left: -50px;
+}
+
+.add-app-platform-input-layout .ios-chk-layout {
+    margin: 100px 0 55px -50px;
+}
+
+
+.add-app-platform-input-layout > div > div {
+    height: 100%;
+    margin-bottom: 55px;
+}
+
+.add-app-platform-input-layout > div > div > span:first-child {
+    width: 98px;
+    padding-top: 15px;
+    display: inline-block;
+    text-align: right;
+}
+
+.add-app-platform-input-layout > div > div > .add-app-img-div {
+    width: 80px;
+    height: 80px;
+    background: #DCE2EB 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+
+.add-app-platform-input-layout > div > .add-app-img-div > img {
+    display: block;
+    margin: 38% auto;
+}
+
+.ios-input-layout .add-app-ios-info-p8 > div {
+    height: 100%;
+    margin-bottom: 55px;
+}
+
+.ios-input-layout .add-app-ios-info-p8 > div > span:first-child {
+    width: 98px;
+    padding-top: 15px;
+    display: inline-block;
+    text-align: right;
+}
+
+.ios-input-layout .add-app-ios-info-p12 > div {
+    height: 100%;
+    margin-bottom: 55px;
+}
+
+.ios-input-layout .add-app-ios-info-p12 > div > span:first-child {
+    width: 98px;
+    padding-top: 15px;
+    display: inline-block;
+    text-align: right;
+}
+
+.add-app-platform-input-layout input[type=checkbox].chk-platform {
+    display: none;
+}
+
+.add-app-platform-input-layout input[type=checkbox].chk-platform + label {
+    cursor: pointer;
+    padding-left: 30px;
+    display: inline-block;
+    font-size: 12px;
+    color: #22214B;
+    opacity: 1;
+    width: 250px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-image: url('/image/cb_off.svg');
+}
+
+.add-app-platform-input-layout input[type=checkbox].chk-platform:checked + label {
+    background-image: url('/image/cb_on.svg');
+}
+
+.add-app-platform-input-layout input[type=checkbox].chk-platform + label > span {
+    color: #1A1A1A;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.add-app-platform-input-layout .certi-file-upload {
+    margin: 12px 0 0 2px;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+.add-app-platform-input-layout .certi-file-upload .certi-file-upload-icon {
+    content: url(/image/btn_file.svg);
+    display: none;
+}
+
+.square-shape-num {
+    width: 25px;
+    height: 25px;
+    color: #F8F7F7;
+    font-size: 16px;
+    line-height: 26px;
+    background: #1A1A1A 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.square-shape-num + p {
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+
+.gray-navy-line {
+    border-bottom: 1px solid #768AA7;
+    width: 700px;
+    margin-left: 134px;
+}
+
+.req-value-mark {
+    color: #FF0000;
+    letter-spacing: 3px;
+}
+
+.add-app-input {
+    width: 697px;
+    height: 25px;
+    line-height: 25px;
+    padding-bottom: 15px;
+    margin-left: 31px;
+    border: none;
+    background-color: transparent;
+}
+
+.add-app-textarea {
+    display: inline;
+    vertical-align: bottom;
+    width: 697px;
+    height: 25px;
+    line-height: 25px;
+    padding: 1px 2px 15px;
+    margin: 0;
+    margin-left: 34px;
+    border: none 0px;
+    background-color: transparent;
+    outline: none;
+    -ms-overflow-style: none;
+    resize: none;
+    font-family: none;
+    wrap: hard;
+}
+
+.add-app-textarea-div {
+    display: inline-block;
+    align: left;
+}
+
+.add-app-textarea-div > span:first-child {
+    width: 98px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: center;
+}
+
+.add-app-textarea::-webkit-scrollbar {
+    display: none;
+}
+
+label.app-img-file-label {
+    background-image: url('/image/btn_add.svg');
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: center;
+    margin: 0 0 0 -80px;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+    opacity: 1;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+label.ios-certi-file-label {
+    content: url('/image/btn_file.svg');
+    top: 628px;
+    left: 917px;
+    position: absolute;
+    cursor: pointer;
+    display: none;
+
+}
+
+span.file-name-display {
+    font-size: 14px;
+    line-height: 53px;
+    padding-bottom: 15px;
+    margin-left: 33px;
+}
+
+img.app-img-file-preview {
+    display: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+    opacity: 1;
+    margin: 0px 0 0 31px;
+    vertical-align: middle;
+    border: 1px solid #DCE2EB;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+input[type="radio"].chk-radio {
+    vertical-align: middle;
+    appearance: none;
+    border: 0.5em solid #FFFFFF;
+    background-color: #ACB7C7;
+    outline: 0.1rem solid #ACB7C7;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin-left: 31px;
+}
+
+#radio-p8 + span {
+    font-size: 16px;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+#radio-p12 + span {
+    font-size: 16px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+input {
+    font-family: 'Pretendard-Regular';
+}
+
+input[type="radio"].chk-radio:focus {
+    outline: 0.1rem solid #ACB7C7;
+}
+
+input[type="radio"].chk-radio:checked {
+    background-color: #FFFFFF;
+    border: 0.5em solid #22214B;
+    outline: none;
+}
+
+input[type="radio"].chk-radio:disabled {
+    border: 0.5em solid #FFFFFF;
+    background-color: #ACB7C7;
+    outline: 0.1rem solid #ACB7C7;
+    pointer-events: none;
+}
+
+button {
+    font-family: 'Pretendard-Medium';
+    border: none;
+    display: block;
+}
+
+.app-create-btn-layout {
+    position: absolute;
+    top: 1900px;
+    left: 915px;
+    padding-bottom: 80px;
+}
+
+.app-create-btn {
+    width: 140px;
+    height: 50px;
+    /* UI Properties */
+    background: #ACB7C7 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #F8F7F7;
+    opacity: 1;
+}
+
+
+button.app-create-btn:enabled {
+    background: #22214B;
+    cursor: pointer;
+}
+
+button.app-create-btn:disabled {
+    background: #ACB7C7;
+    pointer-events: none;
+}
+
+.disable-gray {
+    color: #ACB7C7;
+}
+
+.disable-gray-line {
+    border-bottom: 1px solid #ACB7C7;
+}

@@ -1,0 +1,179 @@
+.srh-wrap .srh-col {
+    margin-left: 10px;
+}
+
+.srh-wrap .srh-col:first-child {
+    margin-left: 0;
+}
+
+.channel-select {
+    width: 200px;
+}
+
+.platform-select {
+    width: 200px;
+}
+
+.srh-date-direct {
+    margin-left: 10px;
+}
+
+.stat-contents {
+    padding: 30px 24px 0;
+}
+
+.stat-content-chart {
+    padding-top: 10px;
+}
+
+.sata-chart-user {
+    padding-top: 20px;
+}
+
+
+.srh-day-box {
+    display: flex;
+    align-items: center;
+}
+
+.srh-day-tt {
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.srh-day-text {
+    padding-left: 10px;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+}
+
+
+.stat-content-chart ul {
+    display: flex;
+    align-items: center;
+}
+
+.stat-content-chart li {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.stat-content-chart li:first-child {
+    margin-left: 0;
+}
+
+.stat-chart01 {
+    background-color: rgba(134, 161, 255, .5);
+}
+
+.stat-chart02 {
+    background-color: rgba(134, 197, 255, .5);
+}
+
+.stat-chart03 {
+    background-color: rgba(134, 233, 255, .5);
+}
+
+.stat-chart04 {
+    background-color: rgba(134, 255, 226, .5);
+}
+
+.stat-chart05 {
+    background-color: rgba(134, 255, 182, .5);
+}
+
+.stat-chart06 {
+    background-color: rgba(134, 255, 139, .5);
+}
+
+
+.stat-content-table {
+    padding-top: 20px;
+}
+
+.chart-user-info-num {
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.stat-user-datepicker {
+    width: 240px
+}
+
+
+.stat-use-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stat-use-total {
+    width: 50%;
+}
+
+.stat-use-totalNum {
+    display: flex;
+    align-items: center;
+}
+
+.stat-use-totalNum .stat-use-suc {
+    margin-right: 10px;
+}
+
+.stat-use-totalNum dl {
+    display: flex;
+    align-items: center;
+}
+
+.stat-use-totalNum dl:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    margin-right: 5px;
+}
+
+.stat-use-totalNum dt {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.stat-use-totalNum dd {
+    padding-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.stat-use-totalNum .stat-use-suc dl:before {
+    background-color: rgba(54, 162, 235, 0.7);
+}
+
+.stat-use-totalNum .stat-use-fail dl:before {
+    background-color: rgba(54, 162, 235, 0.5);
+}
+
+
+.stat-content-campaign {
+    display: flex;
+}
+
+.stat-content-campaign .stat-table {
+    width: 49%;
+    margin-left: 2%;
+}
+
+.stat-content-campaign .stat-table:first-child {
+    margin-left: 0;
+}
+
+.stat-table-tt {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,16 @@
+<svg id="btn_unregister" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Mask" d="M.938,0l4,4-4,4L0,7.063,3.063,4,0,.938Z" fill="#768aa7"/>
+        </clipPath>
+    </defs>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="20" height="20" rx="2" fill="none"/>
+    <g id="Group" transform="translate(8 6)">
+        <path id="Mask-2" data-name="Mask" d="M.938,0l4,4-4,4L0,7.063,3.063,4,0,.938Z" fill="#768aa7"/>
+        <g id="Group-2" data-name="Group" clip-path="url(#clip-path)">
+            <g id="_icon-color" data-name="↳🎨icon-color" transform="translate(-38 -32)">
+                <rect id="Icon-Shade" width="72" height="72" fill="#768aa7"/>
+            </g>
+        </g>
+    </g>
+</svg>

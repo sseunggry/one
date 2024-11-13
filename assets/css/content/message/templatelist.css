@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+.input-fit {
+    flex: 1;
+}
+
+.input-fit-text {
+    width: calc(100% - 10px);
+}
+
+#content > p {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    /* Layout Properties */
+    position: relative;
+    text-align: left;
+    margin-top: 55px;
+    margin-left: 55px;
+    height: 24px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+#content > select {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #768AA7;
+    border-radius: 2px;
+    appearance: none;
+    background-image: url('/image/btn_select_down.svg');
+    background-position: right;
+
+}
+
+#content > select:focus {
+    outline: none;
+    background-image: url('/image/btn_select_up.svg');
+    border: 1px solid #1CA3DD;
+}
+
+#content > #sel_category {
+    position: absolute;
+    top: 120px;
+    left: 1000px;
+    width: 80px;
+    height: 40px;
+    /* UI Properties */
+    text-align: center;
+    padding-right: 10px;
+    font-family: Pretendard-Regular;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+#content > #search_bar {
+    font-family: 'Pretendard-regular';
+    position: absolute;
+    top: 120px;
+    left: 1086px;
+    width: 260px;
+    padding-right: 38px;
+    height: 36px;
+    border: 1px solid #768AA7;
+    margin: 0px;
+    opacity: 1;
+    text-indent: 13px;
+}
+
+#content > #search_bar:focus {
+    outline: none;
+    border: 1px solid #1CA3DD;
+}
+
+#content > #search_bar::placeholder {
+    color: #ACB7C7;
+}
+
+#content > #search_btn {
+    position: absolute;
+    left: 1355px;
+    top: 131px;
+    width: 20px;
+    height: 20px;
+    /* UI Properties */
+    opacity: 1;
+    cursor: pointer;
+}
+
+#content > #sel_cnt {
+    font-family: Pretendard-Regular;
+    position: absolute;
+    left: 100px;
+    top: 210px;
+    width: 80px;
+    height: 40px;
+    /* UI Properties */
+    opacity: 1;
+    text-align: center;
+    font-size: 12px;
+}
+
+#content > #add_template_btn {
+    position: absolute;
+    left: 1315px;
+    top: 225px;
+    width: 106px;
+    height: 16px;
+    cursor: pointer;
+}
+
+#add_template_btn img {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+#add_template_btn span {
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    width: 52px;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #1A1A1A;
+}
+
+#content > table {
+    display: block;
+    position: absolute;
+    top: 260px;
+    left: 100px;
+    width: 1290px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    border-top: 2px solid #768AA7;
+    border-bottom: 2px solid #768AA7;
+}
+
+#content > table > thead > tr > th {
+    border-bottom: 1px solid #768AA7;
+    height: 48px;
+    font-family: Pretendard-Regular;
+    font-size: 13px;
+    color: #999999;
+    font-weight: normal;
+}
+
+#content > table > thead > tr > th:nth-child(1) {
+    width: 150px;
+}
+
+#content > table > thead > tr > th:nth-child(2) {
+    width: 200px;
+}
+
+#content > table > thead > tr > th:nth-child(3) {
+    width: 450px;
+}
+
+#content > table > thead > tr > th:nth-child(4) {
+    width: 150px;
+}
+
+#content > table > thead > tr > th:nth-child(5) {
+    visibility: hidden;
+    width: 150px;
+}
+
+#content > table > thead > tr > th:nth-child(6) {
+    width: 95px;
+}
+
+#content > table > thead > tr > th:nth-child(7) {
+    width: 95px;
+}
+
+#content > table > tbody {
+    display: block;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+#content > table > tbody > tr > td {
+    height: 37px;
+    font-family: Pretendard-Regular;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0px;
+    border-bottom: 1px solid #DCE2EB;
+    color: #1A1A1A;
+}
+
+#content > table > tbody > tr > td > a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+#content > table > tbody > tr > td:nth-child(1) {
+    width: 150px;
+}
+
+#content > table > tbody > tr > td:nth-child(2) {
+    width: 200px;
+}
+
+#content > table > tbody > tr > td:nth-child(3) {
+    width: 450px;
+}
+
+#content > table > tbody > tr > td:nth-child(4) {
+    width: 150px;
+}
+
+#content > table > tbody > tr > td:nth-child(5) {
+    width: 150px;
+}
+
+#content > table > tbody > tr > td:nth-child(6) {
+    width: 95px;
+}
+
+#content > table > tbody > tr > td:nth-child(7) {
+    width: 95px;
+}
+
+#content > table > tbody > tr > td > img {
+    cursor: pointer;
+}
+
+tbody::-webkit-scrollbar {
+    width: 8px;
+}
+
+tbody::-webkit-scrollbar-thumb {
+    background-color: #E3E3E3;
+    border-radius: 8px;
+}
+
+tbody::-webkit-scrollbar-track {
+    background-color: #F8F7F7;
+    border-radius: 8px;
+}

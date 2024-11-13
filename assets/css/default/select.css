@@ -1,0 +1,50 @@
+/* ============================ Select ============================ */
+.select {
+    height: 36px;
+    padding: 8px 8px 8px 16px;
+    border: 1px solid var(--borderColor100);
+    border-radius: 5px;
+
+    appearance: none; /* 기본 화살표 제거 */
+    -webkit-appearance: none; /* Safari, Chrome 화살표 제거 */
+    -moz-appearance: none; /* Firefox 화살표 제거 */
+
+    background-color: #fff; /* 배경색 설정 */
+    background-image: url(/images/icon/icon_drop_down.svg); /* 커스텀 화살표 이미지 추가 */
+    background-repeat: no-repeat; /* 배경 이미지 반복 방지 */
+    background-position: right center; /* 커스텀 화살표 위치 설정 */
+    background-size: 20px; /* 커스텀 화살표 크기 설정 */
+}
+
+.select:focus {
+    border: 2px solid var(--blue100);
+    outline: none;
+}
+
+.select.errorBd {
+    border-color: var(--red);
+}
+
+.select.radius {
+    border-radius: 4px;
+}
+
+.select.block {
+    width: 100%;
+}
+
+
+.select:disabled {
+    color: var(--fontSubColor5);
+    border-color: var(--lightgrey700);
+}
+
+.select:disabled + .label-text {
+    color: var(--fontSubColor5);
+}
+
+.keyword-type-select {
+    width: 150px;
+}
+
+/* ======================================================== */

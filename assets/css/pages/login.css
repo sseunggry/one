@@ -1,0 +1,239 @@
+.main-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--lightblue100);
+}
+
+.login-wrap {
+    display: flex;
+    width: 1200px;
+    height: 600px;
+    border-radius: 16px;
+    background-color: var(--white);
+    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+    overflow: hidden;
+    min-width: 1200px;
+    min-height: 600px;
+}
+
+.login-box {
+    width: 50%;
+    padding: 120px 70px 0;
+}
+
+.login-box .input-text {
+    height: 56px;
+}
+
+.login-box-inner {
+    padding: 0 50px;
+}
+
+
+.swiper-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: #F8F9FA;
+}
+
+.left-section .main-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+}
+
+.mainlogo {
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    padding-bottom: 32px;
+}
+
+.login-form .btn {
+    width: 100%;
+    height: 56px;
+    color: var(--white);
+    font-size: 16px;
+    background-color: var(--blue100);
+    border-radius: 5px;
+}
+
+.login-form input {
+    border: 1px solid #DADCE0;
+    color: #AAA;
+    font-family: "Noto Sans CJK KR";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+}
+
+.description {
+    padding: 4px 0 0 16px;
+    font-size: 12px;
+    color: var(--asideMenuText);
+}
+
+.auto-login-box {
+    display: flex;
+    padding: 20px 0 0 0;
+}
+
+.auto-login-box label {
+    color: #454545;
+    font-family: "Noto Sans CJK KR";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 77px;
+    text-align: center;
+    font-family: "Noto Sans CJK KR";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.4px;
+}
+
+.copyright img {
+    padding-right: 5px;
+}
+
+.login-info {
+    padding-top: 50px;
+}
+
+.login-info li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.footer {
+    padding-top: 100px;
+}
+
+.footer p {
+    color: var(--lightgrey400);
+    font-weight: 300;
+}
+
+.join-form .join-userId-box {
+    position: relative;
+}
+
+.join-form .join-userId-box .btn {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    width: 80px;
+}
+
+.join-form .join-userId-box .input-text {
+    padding-right: 80px;
+    border-right: 0;
+}
+
+.join-form .btn {
+    height: 40px;
+}
+
+.modal-find-userInfo .modal-inner {
+    width: 950px;
+}
+
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.swiper-content {
+    padding-top: 23px;
+}
+
+.swiper-content dl {
+    text-align: center;
+}
+
+.swiper-content dt {
+    font-size: 27px;
+    color: var(--fontSubColor3);
+    font-weight: 600;
+}
+
+.swiper-content dd {
+    padding-top: 12px;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--fontSubColor2);
+    line-height: normal;
+}
+
+.swiper-pagination {
+    position: static;
+    padding-top: 45px;
+}
+
+
+.passwd-inner {
+    min-width: 400px;
+    max-width: 600px;
+    background-color: var(--white);
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 20px 20px 30px;
+}
+
+.passwd-top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.passwd-content {
+    padding: 0px 10px 20px;
+    color: var(--black, #222);
+    text-align: center;
+    font-family: "Noto Sans CJK KR";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    width: 500px;
+}
+
+.passwd-content .title {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.ta-left {
+    text-align: left;
+}

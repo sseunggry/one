@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('/font/Pretendard-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Pretendard-Black';
+    src: url('/font/Pretendard-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Pretendard-ExtraBold';
+    src: url('/font/Pretendard-ExtraBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Pretendard-ExtraLight';
+    src: url('/font/Pretendard-ExtraLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Pretendard-Light';
+    src: url('/font/Pretendard-Light.otf') format('opentype');
+}
+
+/* @font-face {
+	font-family: 'Pretendard-Regular';
+	src: url('/font/Pretendard-Regular.otf')
+		format('opentype');
+} */
+
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('/font/Pretendard-SemiBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Pretendard-Thin';
+    src: url('/font/Pretendard-Thin.otf') format('opentype');
+}

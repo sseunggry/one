@@ -1,0 +1,243 @@
+.section-wrap {
+    color: #222;
+    font-family: "Noto Sans CJK KR";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.35px;
+}
+
+.segment-srh-wrap {
+    padding-top: 15px;
+}
+
+.seg-tab-list {
+    padding: 0 24px 0;
+    display: flex;
+}
+
+.sag-list-content {
+    padding: 10px 24px 0;
+}
+
+.srh-wrap {
+    height: 90px;
+    border-radius: 5px;
+    border: 1px solid #DADCE0;
+    background: #F9F9FB;
+    display: flex;
+    align-items: center;
+    margin: 10px 25px 0;
+}
+
+.srh-wrap .srh-wrap-item-1 {
+    flex-grow: 0;
+    width: 50px;
+    font-weight: 700;
+}
+
+.srh-wrap .srh-wrap-item-2 {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.srh-wrap .srh-wrap-item-2 select {
+    width: 100%;
+}
+
+.srh-wrap .srh-wrap-item-3 {
+    flex-grow: 10;
+    margin-right: 10px;
+}
+
+.srh-wrap .srh-wrap-item-3 input {
+    width: 100%;
+}
+
+.srh-wrap .srh-wrap-item-4 {
+    flex-grow: 0;
+}
+
+.srh-wrap .srh-wrap-item-4 button {
+    width: 100px;
+}
+
+.segment-srh-wrap .select-type {
+    width: 150px;
+}
+
+.segment-srh-wrap .srh-col {
+    margin-left: 10px;
+}
+
+.segment-srh-wrap.list .srh-col {
+    margin-left: 0px;
+}
+
+.segment-srh-wrap .srh-col:first-child {
+    margin-left: 0;
+}
+
+.segment-srh-wrap .srh-submit-btn {
+    height: 40px;
+    border-radius: 5px;
+}
+
+.sag-table .input-check-label.bg-check {
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.sag-table tbody tr:hover {
+    background-color: transparent;
+    cursor: default;
+}
+
+.seg-input-list .flex {
+    display: flex;
+    align-items: baseline;
+}
+
+.seg-input-list li {
+    padding-top: 10px;
+}
+
+.seg-input-list .sag-name-input {
+    width: calc(100% - 100px);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.seg-input-list .btn-seg-check {
+    width: 100px;
+    height: 40px;
+}
+
+.seg-input-list .sag-name-input {
+    width: calc(100% - 100px);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.seg-input-list .btn-seg-check {
+    width: 100px;
+    height: 40px;
+}
+
+
+.sag-type-sort-box {
+    display: flex;
+    align-items: center;
+}
+
+.sag-type-sort.active {
+    background-color: var(--lightblue);
+}
+
+.table-col-etc .col-inr {
+    display: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.table-st01 tr:hover .table-col-etc .col-inr {
+    display: flex;
+}
+
+/* Sagment */
+.seg-list-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.seg-list-wrap .seg-list {
+    width: 32%;
+    margin-right: 2%;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: var(--lightblue);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.seg-list-wrap .seg-list.active {
+    background-color: var(--blue);
+    color: #fff;
+}
+
+.seg-list-wrap .seg-list:nth-child(3n) {
+    margin-right: 0;
+}
+
+.sag-content-box {
+    display: none;
+}
+
+.file-upload-row {
+    margin-top: 30px;
+}
+
+.addUser-list-box {
+    padding-top: 10px;
+}
+
+.addUser-list-box li {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height: 35px;
+}
+
+.addUser-list-box .col-check {
+    width: 14%;
+    text-align: center;
+}
+
+.addUser-list-box .col-id {
+    width: 43%;
+    text-align: center;
+}
+
+.addUser-list-box .col-name {
+    width: 43%;
+    text-align: center;
+}
+
+.addUser-list-box .addUser-top .addUser-top-del {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.addUser-list-box .addUser-top li {
+    background-color: var(--lightblue);
+}
+
+.addUser-list-box .addUser-top .col-id {
+    font-weight: 600;
+}
+
+.addUser-list-box .addUser-top .col-name {
+    font-weight: 600;
+}
+
+.addUser-list-box .addUser-list {
+    min-height: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.addUser-list-box .addUser-list li {
+    border-bottom: 1px solid var(--borderTableColor);
+}
+
+.addUser-list-box .addUser-list .col-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 

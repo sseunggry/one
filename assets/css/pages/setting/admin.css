@@ -1,0 +1,269 @@
+.srh-col {
+    margin-left: 10px;
+}
+
+.srh-col:first-child {
+    margin-left: 0;
+}
+
+.authority-select {
+    width: 200px;
+}
+
+
+.admin-srh-wrap {
+    padding-top: 15px;
+}
+
+.user-list-wrap {
+    padding: 30px 24px 0;
+}
+
+.user-list-wrap tr {
+    border-bottom: 1px solid var(--borderTableColor);
+}
+
+.user-list-wrap tfoot tr {
+    border-bottom: 0;
+}
+
+.user-append-colgroup {
+    display: flex;
+}
+
+.user-append-colgroup .user-append-col {
+    flex: 1 1 0;
+    margin-left: 5px;
+}
+
+.user-append-colgroup .user-append-col:first-child {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.user-append-wrap > ul > li {
+    padding-top: 30px;
+}
+
+.user-append-wrap > ul > li:first-child {
+    padding-top: 0;
+}
+
+.user-append-wrap .app-list-box {
+    padding: 20px;
+    border: 1px solid var(--borderColor);
+    border-radius: 4px;
+    flex: 1;
+}
+
+.user-append-btm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.user-append-btm .btn {
+    margin-left: 10px;
+}
+
+.user-append-btm .btn:first-child {
+    margin-left: 0;
+}
+
+.user-append-etc {
+    height: 80px;
+}
+
+.app-list-box dl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.app-list-box dl:first-child {
+    padding-top: 0;
+}
+
+
+/* 관리자 권한 */
+.admin-menu-box {
+    display: flex;
+    padding: 0 24px 24px;
+}
+
+.admin-menu-box .admin-box {
+    width: 400px;
+    margin-left: 20px;
+}
+
+.admin-menu-box .admin-box:first-child {
+    margin-left: 0;
+}
+
+.admin-menu-box .admin-menu-tt {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: var(--lightblue);
+}
+
+.admin-menu-box .list-box {
+    padding: 20px;
+    border: 1px solid var(--borderTableColor);
+    border-top: 0;
+}
+
+.admin-menu-box .admin-list-inr {
+    height: 500px;
+    overflow: auto;
+}
+
+.admin-menu-box .admin-list-inr::-webkit-scrollbar {
+    width: 5px;
+}
+
+.admin-menu-box .admin-list-inr::-webkit-scrollbar-thumb {
+    background-color: var(--lightblue);
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+.admin-menu-box .admin-list-inr::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+.admin-menu-box li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px 5px 10px 15px;
+    margin-top: 10px;
+}
+
+.admin-menu-box li:hover {
+    background-color: var(--lightblue);
+    border-radius: 30px;
+}
+
+.admin-menu-box li:first-child {
+    margin-top: 0;
+}
+
+.admin-menu-box .admin-list-tt .title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.admin-menu-box .admin-list-tt .code {
+    font-size: 13px;
+    color: var(--fontSubColor2);
+}
+
+
+.menu-depth1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-depth1-tt {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: noraml;
+}
+
+.menu-depth1-tt .plusminus {
+    margin-right: 5px;
+}
+
+.admin-menu-list {
+    padding: 20px;
+    border: 1px solid var(--borderColor);
+    border-radius: 4px;
+}
+
+.admin-menu-list .menu-list {
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px solid var(--borderTableColor);
+}
+
+.admin-menu-list .menu-list:first-child {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+}
+
+.admin-menu-list .menu-depth1-tt:not(.dashboard) {
+    cursor: pointer;
+}
+
+.admin-menu-list .menu-list.open .menu-depth2 {
+    display: block;
+}
+
+.menu-depth2 {
+    display: none;
+    margin-top: 5px;
+    padding: 0 10px 20px;
+    background-color: var(--lightgrey);
+}
+
+.menu-depth2 li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.menu-depth2 .menu-depth2-tt {
+    font-size: 14px;
+}
+
+#userList tr {
+    height: 52px;
+}
+
+#powerList tr {
+    height: 52px;
+}
+
+/* .admin-list-wrap { display:flex; align-items:center; padding:0 24px 24px; }
+.admin-list-wrap dl { display:flex; align-items:center; padding:10px 24px; background-color:var(--blue); margin-left:10px; border-radius:30px; cursor:pointer; }
+.admin-list-wrap dl:first-child { margin-left:0;}
+.admin-list-wrap dl dt { color:var(--white); font-weight:600; }
+.admin-list-wrap dl dd { padding-left:5px; font-size:12px; color:var(--lightblue); } */
+
+.member-input {
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.icon-display {
+    display: flex;
+    justify-content: center;
+}
+
+.hidden-row {
+    display: none;
+}
+
+.icon-append-btn-black.expanded {
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icon/icon_minus_black.svg);
+    background-size: contain;
+}

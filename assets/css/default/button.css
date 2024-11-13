@@ -1,0 +1,151 @@
+.btn {
+    padding: 10px 24px;
+    border-radius: 5px;
+    height: 36px;
+}
+
+.btn.block {
+    width: 100%;
+}
+
+.btn:disabled {
+    background-color: var(--lightgrey100);
+    border-color: var(--lightgrey100);
+}
+
+.btn:disabled:hover {
+    box-shadow: none;
+}
+
+.btn:disabled:active {
+    background-color: var(--lightgrey100);
+}
+
+.btn:hover {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+    opacity: 0.8;
+}
+
+.btn.round:active {
+    border-radius: 30px;
+    opacity: 0.8;
+}
+
+.btn.round {
+    border-radius: 30px;
+}
+
+.btn.round:hover {
+    border-radius: 30px;
+}
+
+.btn.radius {
+    border-radius: 7px;
+}
+
+.btn.radius:hover {
+    border-radius: 7px;
+}
+
+.btn.radius:active {
+    border-radius: 7px;
+}
+
+.btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 22px;
+}
+
+.btn-icon .icon {
+    margin-right: 5px;
+}
+
+.btn-bg {
+    background-color: var(--blue100);
+    color: var(--white);
+}
+
+.btn-bg-gray {
+    background-color: var(--gray);
+    color: var(--white);
+}
+
+.btn-border-only {
+    border: 1px solid var(--borderColor100);
+    background: #FFF;
+}
+
+.btn-bg:active {
+    color: var(--white);
+    opacity: 0.8;
+}
+
+.btn-bd {
+    border: 1px solid var(--borderColor);
+}
+
+.cancel-btn {
+    color: var(--fontColor);
+    background-color: var(--lightgrey400);
+}
+
+.cancel-btn:active {
+    color: var(--fontColor);
+    background-color: var(--lightgrey100);
+}
+
+.csv-btn {
+    padding: 7px 15px;
+    border-radius: 30px;
+    border: 1px solid #0a8545;
+}
+
+.del-btn {
+    padding: 7px 15px;
+    border-radius: 30px;
+    border: 1px solid var(--red);
+}
+
+.copy-btn {
+    padding: 7px 15px;
+    border-radius: 30px;
+    border: 1px solid var(--blue);
+}
+
+.btn-icon .link {
+    color: var(--blue100);
+    text-decoration: underline;
+}
+
+.text-btn {
+    color: var(--blue100);
+    text-decoration: underline;
+}
+
+.list-move-btn {
+    background-color: var(--lightgrey500);
+    color: var(--white);
+}
+
+.bottom-button {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+
+.btn-w-122 {
+    width: 122px;
+}
+
+.btn-w-124 {
+    width: 124px;
+}
+
+.btn-w-130 {
+    width: 130px;
+}

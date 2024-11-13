@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+#content_type2 .myApp {
+    margin-top: 77px;
+}
+
+#content_type2 .myApp .myApp-info {
+    margin-left: 445px;
+    margin-top: -30px;
+}
+
+#content_type2 .myApp .myApp-info > p {
+    color: #1A1A1A;
+    font-size: 20px;
+    width: 62px;
+    height: 24px;
+}
+
+#content_type2 .myApp .myApp-info > #addApp {
+    float: right;
+    font-size: 14px;
+    margin: -40px 77px 0 0;
+    cursor: pointer;
+}
+
+#content_type2 .myApp .myApp-info > #addApp > img {
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+#content_type2 .myApp .swiper-container {
+    margin-top: 45px;
+    margin-left: 516px;
+    width: 920px;
+    height: 120px;
+}
+
+.myApp .swiper-container .swiper-wrapper {
+    height: 120px;
+}
+
+.myApp .swiper-container .swiper-wrapper .swiper-slide {
+    text-align: center;
+    align-items: center; /* 위아래 기준 중앙정렬 */
+    justify-content: center; /* 좌우 기준 중앙정렬 */
+    /* display: inline-block;  */
+    width: 78px !important;
+    height: 78px !important;
+    border-radius: 6px;
+    opacity: 1;
+    margin: 11px 0 0 0;
+    background-color: transparent;
+    border: 1px solid #DCE2EB;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.swiper-wrapper {
+    font-family: 'Pretendard-Regular';
+}
+
+.myApp .swiper-container .swiper-wrapper .swiper-slide p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 88px;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide p a {
+    font-family: 'Pretendard-Regular';
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide p a:visited {
+    color: #1A1A1A;
+}
+
+
+.swiper-container .swiper-wrapper .swiper-slide p a:link {
+    color: #1A1A1A;
+}
+
+
+.myApp button.app-list-btn {
+    border: none;
+    display: inline-block;
+    background: transparent;
+}
+
+.myApp button.app-list-btn > img {
+    cursor: pointer;
+}
+
+.myApp #app-list-prev-btn {
+    top: 110px;
+    left: 440px;
+    position: absolute;
+    display: none;
+}
+
+.myApp #app-list-next-btn {
+    top: 110px;
+    left: 1468px;
+    position: absolute;
+    display: none;
+}
+
+#content_type2 .totalUsage .usage-info {
+    margin-left: 445px;
+    margin-top: 122px;
+}
+
+#content_type2 .totalUsage .usage-info .this-usage-legend {
+    position: absolute;
+    left: 1170px;
+    top: 397px;
+    width: 480px;
+}
+
+#content_type2 .totalUsage .usage-info .this-usage-legend > li {
+    font-family: 'Pretendard-Regular';
+    font-size: 12px;
+    margin-left: 16px;
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+#content_type2 .totalUsage .usage-info .this-usage-legend > li > div {
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+#content_type2 .totalUsage .usage-info .this-usage-legend > li > span {
+    position: relative;
+    z-index: 10;
+}
+
+
+#content_type2 .totalUsage .usage-info .prev-usage-legend {
+    position: absolute;
+    left: 560px;
+    top: 397px;
+}
+
+#content_type2 .totalUsage .usage-info .prev-usage-legend > li {
+    font-family: 'Pretendard-Regular';
+    font-size: 12px;
+    margin-left: 16px;
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+#content_type2 .totalUsage .usage-info .prev-usage-legend > li > div {
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+#content_type2 .totalUsage .usage-info .prev-usage-legend > li > span {
+    position: relative;
+    z-index: 10;
+}
+
+#content_type2 .totalUsage .chart-pie-div {
+    font-family: 'Pretendard-Regular';
+}
+
+#content_type2 .totalUsage .chart-pie-div .monthly-data {
+    margin-top: 45px;
+}
+
+#content_type2 .totalUsage .chart-pie-div .monthly-data .usage-previous-month {
+    margin-left: 435px;
+}
+
+#content_type2 .totalUsage .chart-pie-div .monthly-data .usage-current-month {
+    margin-left: 1045px;
+}
+
+
+#content_type2 .totalUsage .chart-pie-div .monthly-data > ul > li {
+    font-size: 12px;
+    margin-left: 16px;
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+#content_type2 .totalUsage .chart-pie-div .monthly-data > ul > li > div {
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+
+#content_type2 .totalUsage .usage-info > p {
+    color: #1A1A1A;
+    font-size: 20px;
+    width: 75px;
+    height: 24px;
+}
+
+#content_type2 .send-status .send-status-info {
+    margin-left: 445px;
+    margin-top: 190px;
+}
+
+#content_type2 .send-status .send-status-info > p {
+    color: #1A1A1A;
+    font-size: 20px;
+    width: 120px;
+    height: 24px;
+}
+
+#content_type2 .send-status .send-status-info .send-status-legend {
+    font-family: 'Pretendard-Regular';
+    float: right;
+    margin: -43px 80px 0 0;
+}
+
+#content_type2 .send-status .send-status-info .send-status-legend > li {
+    font-size: 12px;
+    margin-left: 16px;
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+#content_type2 .send-status .send-status-info .send-status-legend > li > div {
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+#content_type2 .send-status .chart-line-div {
+    margin-top: 60px;
+    padding-bottom: 100px;
+}

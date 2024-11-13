@@ -1,0 +1,920 @@
+@charset "UTF-8";
+
+.title-area {
+    position: absolute;
+    top: -130px;
+    left: -70px;
+    width: 1290px;
+    height: 60px;
+    text-align: left;
+    font-style: medium;
+    font-size: 20px;
+}
+
+.app-info-area {
+    position: absolute;
+    top: 175px;
+    left: 120px;
+    width: 1290px;
+    height: 500px;
+    font-family: 'Pretendard-Medium';
+}
+
+.android-chk-layout {
+    margin-left: -50px;
+    margin-bottom: 290px;
+}
+
+.ios-chk-layout {
+    margin-left: -50px;
+}
+
+.chk-platform {
+    font-family: 'Pretendard-Regular';
+    display: none;
+}
+
+.chk-platform + label {
+    cursor: pointer;
+    padding-left: 30px;
+    display: inline-block;
+    font-size: 12px;
+    color: #22214B;
+    opacity: 1;
+    width: 250px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-image: url('/image/cb_off.svg');
+}
+
+.chk-platform:checked + label {
+    background-image: url('/image/cb_on.svg');
+}
+
+.chk-platform + label > span {
+    color: #1A1A1A;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.key-info-area label.chk-img {
+    position: initial;
+    left: initial;
+    width: initial;
+    text-align: initial;
+    cursor: default;
+}
+
+.key-info-area {
+    position: absolute;
+    top: 805px;
+    left: 120px;
+    width: 1290px;
+    height: 550px;
+    font-family: 'Pretendard-Medium';
+    font-size: 12px;
+}
+
+.btn-area {
+    position: absolute;
+    top: 1600px;
+    left: 380px;
+    width: 500px;
+    height: 200px;
+    font-family: 'Pretendard-Medium';
+    align-items: center;
+}
+
+#img-area {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 100px;
+    background-color: transparent;
+    padding-right: 100px;
+    height: 35px;
+}
+
+#name-area {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 1150px;
+    background-color: transparent;
+    padding-right: 100px;
+    height: 35px;
+}
+
+#desc-area {
+    position: absolute;
+    top: 170px;
+    left: 0px;
+    width: 1150px;
+    background-color: transparent;
+    padding-right: 100px;
+    height: 35px;
+}
+
+#api-area {
+    position: absolute;
+    left: 0px;
+    width: 1000px;
+    top: 240px;
+    background-color: transparent;
+    padding-right: 100px;
+    height: 35px;
+}
+
+#ip-area {
+    position: absolute;
+    left: 0px;
+    width: 1150px;
+    top: 310px;
+    background-color: transparent;
+    padding-right: 100px;
+    height: 35px;
+}
+
+
+#fcm-api-area {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 1150px;
+    height: 100px;
+    background-color: transparent;
+    padding-right: 100px;
+    height: 35px;
+}
+
+#fcm-project-area {
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    width: 1150px;
+    background-color: transparent;
+    padding-right: 100px;
+    height: 35px;
+}
+
+#certi-select-area {
+    position: absolute;
+    top: 380px;
+    left: 0px;
+    width: 400px;
+    background-color: transparent;
+    padding-right: 100px;
+    height: 35px;
+}
+
+#certi-file-area-p8, #certi-file-area-p12 {
+    position: absolute;
+    top: 460px;
+    left: 0px;
+    width: 1150px;
+    background-color: transparent;
+    padding-right: 100px;
+    height: 35px;
+}
+
+#apns-area, #certi-pw-area {
+    position: absolute;
+    left: 0px;
+    width: 1150px;
+    top: 540px;
+    background-color: transparent;
+    padding-right: 100px;
+    height: 35px;
+}
+
+#certi-key-area, #certi-date-area {
+    position: absolute;
+    left: 0px;
+    width: 1150px;
+    top: 620px;
+    background-color: transparent;
+    padding-right: 100px;
+    height: 35px;
+}
+
+#apple-team-area {
+    position: absolute;
+    left: 0px;
+    width: 1150px;
+    top: 700px;
+    background-color: transparent;
+    padding-right: 100px;
+    height: 35px;
+}
+
+#fcm-api-info {
+    font-family: 'Pretendard-Medium';
+    position: absolute;
+    left: 100px;
+    width: 1050px;
+    color: #ACB7C7;
+    background-color: transparent;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    text-indent: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-color: #768AA7;
+    outline: none;
+}
+
+#name-info {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    position: absolute;
+    bottom: -1px;
+    left: 100px;
+    width: 1050px;
+    vertical-align: top;
+    background-color: transparent;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    color: #ACB7C7;
+    text-indent: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-color: #768AA7;
+    outline: none;
+
+}
+
+#desc-info {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    position: absolute;
+    left: 100px;
+    bottom: -1px;
+    width: 1050px;
+    vertical-align: top;
+    background-color: transparent;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    color: #ACB7C7;
+    text-indent: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-color: #768AA7;
+    outline: none;
+
+}
+
+#api-info {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    position: absolute;
+    left: 100px;
+    width: 975px;
+    bottom: -1px;
+    background-color: transparent;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    color: #ACB7C7;
+    text-indent: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-color: #768AA7;
+    outline: none;
+}
+
+#ip-info {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    width: 1050px;
+    background-color: transparent;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    color: #ACB7C7;
+    text-indent: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-color: #768AA7;
+    outline: none;
+}
+
+#fcm-api-info {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    position: absolute;
+    left: 100px;
+    bottom: -1px;
+    width: 1050px;
+    color: #ACB7C7;
+    background-color: transparent;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    text-indent: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-color: #768AA7;
+    outline: none;
+}
+
+#fcm-project-info {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    position: absolute;
+    left: 100px;
+    bottom: -1px;
+    width: 1050px;
+    vertical-align: top;
+    background-color: transparent;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    color: #ACB7C7;
+    text-indent: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-color: #768AA7;
+    outline: none;
+
+}
+
+#certi-select-info {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    position: absolute;
+    left: 100px;
+    width: 1050px;
+
+    background-color: transparent;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    color: #ACB7C7;
+
+    text-indent: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-color: #768AA7;
+}
+
+label[for="certi-select-info"] {
+    font-size: 12px;
+    position: absolute;
+    left: -30px;
+    top: 5px;
+    width: 100px;
+    text-align: right;
+}
+
+#ios-certi-info-p8, #ios-certi-info-p12 {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    position: absolute;
+    left: 100px;
+    width: 1050px;
+
+    background-color: transparent;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    color: #ACB7C7;
+
+    text-indent: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-color: #768AA7;
+}
+
+#ios-apns-topic-p8, #ios-certi-pw-p12 {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    position: absolute;
+    left: 100px;
+    width: 1050px;
+    bottom: -1px;
+    background-color: transparent;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    color: #ACB7C7;
+    text-indent: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-color: #768AA7;
+    outline: none;
+}
+
+#ios-certi-key-id-p8, #ios-certi-date-p12 {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    position: absolute;
+    left: 100px;
+    width: 1050px;
+    bottom: -1px;
+    background-color: transparent;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    color: #ACB7C7;
+    text-indent: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-color: #768AA7;
+    outline: none;
+}
+
+#ios-apple-team-id-p8 {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    position: absolute;
+    bottom: -1px;
+    left: 100px;
+    width: 1050px;
+    background-color: transparent;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    color: #ACB7C7;
+    text-indent: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-color: #768AA7;
+    outline: none;
+}
+
+#edit-app-img, #delete-app-img {
+    display: none;
+}
+
+#name-info:focus {
+    border-bottom: 1px solid;
+    border-color: #1CA3DD;
+}
+
+#phone-info:focus {
+    border-bottom: 1px solid;
+    border-color: #1CA3DD;
+}
+
+#api-info:focus {
+    border-bottom: 1px solid;
+    border-color: #1CA3DD;
+}
+
+#ip-info:focus {
+    border-bottom: 1px solid;
+    border-color: #1CA3DD;
+}
+
+#desc-info:focus {
+    border-bottom: 1px solid;
+    border-color: #1CA3DD;
+}
+
+#api-info:focus {
+    border-bottom: 1px solid;
+    border-color: #1CA3DD;
+}
+
+#ip-info:focus {
+    border-bottom: 1px solid;
+    border-color: #1CA3DD;
+}
+
+#fcm-api-info:focus {
+    border-bottom: 1px solid;
+    border-color: #1CA3DD;
+}
+
+#fcm-project-info:focus {
+    border-bottom: 1px solid;
+    border-color: #1CA3DD;
+}
+
+#ios-apns-topic-p8:focus {
+    border-bottom: 1px solid;
+    border-color: #1CA3DD;
+}
+
+#ios-certi-key-id-p8:focus {
+    border-bottom: 1px solid;
+    border-color: #1CA3DD;
+}
+
+#ios-apple-team-id-p8:focus {
+    border-bottom: 1px solid;
+    border-color: #1CA3DD;
+}
+
+#ios-certi-pw-p12:focus {
+    border-bottom: 1px solid;
+    border-color: #1CA3DD;
+}
+
+#ios-certi-date-p12:focus {
+    border-bottom: 1px solid;
+    border-color: #1CA3DD;
+}
+
+#deleteButton {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    position: absolute;
+    width: 140px;
+    top: 70px;
+    left: 170px;
+    height: 50px;
+    color: white;
+    border: none;
+    background: #768AA7 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#cancelButton {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    position: absolute;
+    width: 140px;
+    top: 70px;
+    left: 170px;
+    height: 50px;
+    color: white;
+    border: none;
+    background: #768AA7 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+#editButton {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    position: absolute;
+    width: 140px;
+    top: 70px;
+    left: 330px;
+    height: 50px;
+    color: white;
+    border: none;
+    background: #22214B 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#saveButton {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    position: absolute;
+    width: 140px;
+    top: 70px;
+    left: 330px;
+    height: 50px;
+    color: white;
+    border: none;
+    background: #22214B 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+#saveButton:disabled {
+    background: #ACB7C7;
+    pointer-events: none;
+}
+
+#search-date-from {
+    position: absolute;
+    text-align: left;
+    font-family: 'Pretendard-Regular';
+    font-size: 12px;
+    color: #ACB7C7;
+    top: -15px;
+    left: 150px;
+    width: 110px;
+    height: 36px;
+    padding-right: 0px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #768AA7;
+    border-radius: 2px;
+    opacity: 1;
+    text-indent: 13px;
+}
+
+#search-date-from::placeholder {
+    color: black;
+}
+
+#search-date-from:focus {
+    border-color: #1CA3DD;
+    outline: #1CA3DD;
+}
+
+img.app-img-file-preview {
+    position: absolute;
+    left: 60px;
+    top: -26px;
+    display: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+    opacity: 1;
+    margin: 0px 0 0 31px;
+    vertical-align: middle;
+    border: 1px solid #DCE2EB;
+}
+
+.add-app-img-div {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 60px;
+    top: -25px;
+    background: #DCE2EB 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+.add-app-img-div > img {
+    display: block;
+    margin: 38% auto;
+}
+
+.add-app-img-div {
+    width: 80px;
+    height: 80px;
+    background: #DCE2EB 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+
+.add-app-img-div > img {
+    display: block;
+    margin: 38% auto;
+}
+
+input[type="radio"].chk-radio {
+    vertical-align: middle;
+    appearance: none;
+    border: 0.5em solid #FFFFFF;
+    background-color: #ACB7C7;
+    outline: 0.1rem solid #ACB7C7;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    cursor: defualt;
+    margin-left: 31px;
+}
+
+input[type="radio"].chk-radio:focus {
+    outline: 0.1rem solid #ACB7C7;
+}
+
+input[type="radio"].chk-radio:checked {
+    background-color: #FFFFFF;
+    border: 0.5em solid #22214B;
+    outline: none;
+}
+
+input[type="radio"].chk-radio:disabled {
+    border: 0.5em solid #FFFFFF;
+    background-color: #ACB7C7;
+    outline: 0.1rem solid #ACB7C7;
+    pointer-events: none;
+}
+
+#radio-p8 + label {
+    font-size: 16px;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+#radio-p12 + label {
+    font-size: 16px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+
+.app-info-area label {
+    font-size: 12px;
+    position: absolute;
+    left: -30px;
+    width: 100px;
+    text-align: right;
+}
+
+.app-info-area input[type="text"] {
+    font-size: 12px;
+}
+
+.key-info-area label {
+    position: absolute;
+    left: -30px;
+    width: 100px;
+    text-align: right;
+}
+
+.key-info-area input[type="text"] {
+    font-size: 12px;
+}
+
+label.app-img-file-label {
+    background-image: url('/image/btn_add.svg');
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: center;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 91px;
+    top: -26px;
+    border-radius: 6px;
+    border: 1px solid #DCE2EB;
+    opacity: 1;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.api-btn-area {
+    position: relative;
+    display: inline-block;
+    top: -10px;
+    left: 1185px;
+}
+
+#btn-api-update {
+    font-family: 'Pretendard-Medium';
+    width: 64px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    font-size: 14px;
+    border: 1px solid #22214B;
+    border-radius: 50px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#btn-api-delete {
+    font-family: 'Pretendard-Medium';
+    width: 64px;
+    height: 40px;
+    background: #ff0000 0% 0% no-repeat padding-box;
+    color: white;
+    font-size: 14px;
+    border: 1px solid #22214B;
+    border-radius: 50px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#label-file {
+    position: absolute;
+    font-size: 12px;
+    top: 4px;
+    left: -20px;
+}
+
+label.ios-certi-file-label {
+    position: absolute;
+    top: 0px;
+    left: 1225px;
+    height: 20px;
+    width: 20px;
+    content: url('/image/btn_file.svg');
+    position: absolute;
+    cursor: pointer;
+    display: none;
+}
+
+#ios-certi-info-p8, #ios-certi-info-p12 {
+    display: none;
+}
+
+span.file-name-display {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    margin-left: 105px;
+    color: rgb(172, 183, 199);
+}
+
+.navy-line {
+    position: absolute;
+    border-bottom: 1px solid #768AA7;
+    width: 1150px;
+    top: 35px;
+    left: 32px;
+    margin-left: 69px;
+}
+
+.req-value-mark {
+    color: #FF0000;
+    letter-spacing: 3px;
+}
+
+.disable-gray {
+    color: #ACB7C7;
+}
+
+/*datepicker 캘린더 관련 css*/
+.ui-datepicker {
+    font-family: 'Pretendard-Regular';
+}
+
+.ui-datepicker button {
+    font-family: 'Pretendard-Regular';
+}
+
+.ui-datepicker .ui-datepicker-header {
+    height: 30px;
+}
+
+.ui-datepicker select.ui-datepicker-month {
+    height: 27px;
+    margin-right: 10px;
+}
+
+.ui-datepicker select.ui-datepicker-year {
+    height: 27px;
+}
+
+.ui-datepicker-trigger {
+    display: none !important;
+}
+
+#btn-date-from {
+    left: 227px;
+    top: -6px;
+    position: absolute;
+    z-index: 10;
+    cursor: default;
+    background: transparent;
+    border: none;
+}
+
+.search-date-from {
+    display: inline-block;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    width: 115px;
+    height: 38px;
+    border: 1px solid #768AA7;
+    border-radius: 2px;
+    opacity: 1;
+    text-indent: 14px;
+}
+
+.search-date-from > p {
+    margin-left: 10px;
+    font-family: 'Pretendard-Regular';
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+.search-date-from:focus {
+    border-color: #1CA3DD;
+    outline: #1CA3DD;
+}
+
+#search-date-from::placeholder {
+    color: black;
+}
+
+#search-date-from:focus {
+    border-color: #1CA3DD;
+    outline: #1CA3DD;
+}

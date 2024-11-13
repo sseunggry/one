@@ -1,0 +1,373 @@
+.table-list-type {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--borderColor);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.table-list-type:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -0.5px;
+    width: 1px;
+    height: 100%;
+    background-color: var(--borderColor);
+}
+
+.table-list-type .table-list-sort {
+    padding: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.table-list-type .table-list-sort.active {
+    background-color: var(--lightblue);
+}
+
+.table-list-type .table-list-close {
+    padding-left: 20px;
+    padding-right: 16px;
+}
+
+.table-list-type .table-list-expend {
+    padding-right: 20px;
+    padding-left: 16px;
+}
+
+
+/* SEARCH SUBMIT */
+.srh-keyword-row {
+    padding-top: 10px;
+}
+
+.srh-keyword-box {
+    position: relative;
+    display: flex;
+    margin-left: 8px;
+}
+
+.srh-submit-btn {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    background-size: 20px 20px;
+}
+
+.srh-stat-list ul {
+    display: flex;
+    flex: 1 1 0;
+    border-bottom: 1px solid var(--lightgrey400);
+}
+
+.srh-stat-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 48px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.srh-stat-list .stat-list-tt {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.srh-stat-list .stat-list-dot {
+    display: block;
+    width: 6px;
+    height: 6px;
+    margin-left: 4px;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+.srh-stat-list li.active {
+    border-color: var(--blue);
+}
+
+.srh-stat-list li.active .stat-list-dot {
+    background-color: var(--red);
+}
+
+.advanced-search {
+    padding-left: 10px;
+}
+
+.srh-date-input {
+    position: relative;
+}
+
+.date-direct-btn {
+    color: var(--fontSubColor);
+}
+
+.table-msgsend-history .status {
+    width: 8%;
+    padding-left: 20px;
+}
+
+.table-msgsend-history .campain {
+    width: 7%;
+}
+
+.table-msgsend-history .message {
+    width: 33%;
+    line-height: normal;
+}
+
+.table-msgsend-history .platform {
+    width: 7%;
+}
+
+.table-msgsend-history .targeting {
+    width: 7%;
+}
+
+.table-msgsend-history .writeID {
+    width: 6%;
+}
+
+.table-msgsend-history .sendtime {
+    width: 11%;
+}
+
+.table-msgsend-history .sendSuc {
+    width: 5%;
+}
+
+.table-msgsend-history .sendFail {
+    width: 5%;
+}
+
+.table-msgsend-history .msgStop {
+    width: 7%;
+}
+
+.table-msgsend-history .msgEtc {
+    width: 10%;
+}
+
+.table-msgsend-history .msg-content {
+    width: 100%;
+}
+
+.table-col-etc .col-inr {
+    display: none;
+    align-items: center;
+}
+
+.table-row:hover .table-col-etc .col-inr {
+    display: flex;
+}
+
+
+.table-msgsend-history .col-span-6 {
+    width: 64%;
+}
+
+.table-msgsend-history .col-span-2 {
+    width: 21%;
+}
+
+.table-msgsend-history .msg-state {
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.table-msgsend-history .msg-state.suc {
+    background-color: var(--blue100);
+}
+
+.table-msgsend-history .msg-state.ing {
+    background-color: var(--lightblue200);
+}
+
+.table-msgsend-history .msg-state.wait {
+    background-color: var(--lightred);
+}
+
+.table-msgsend-history .msg-stop-btn {
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: var(--red);
+    cursor: pointer;
+}
+
+.table-msgsend-history .msg-stop-btn .icon-btn-report {
+    background-size: contain;
+}
+
+.table-msgsend-history .msg-stop-btn .icon-btn-txt {
+    font-size: 12px;
+    color: #fff;
+}
+
+.table-msgsend-history .msg-state-txt {
+    margin-left: 8px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.table-msgsend-history .msg-state.ing .msg-state-txt {
+    color: var(--fontPurpleColor);
+}
+
+.table-msgsend-history .msg-state.wait .msg-state-txt {
+    color: var(--red);
+}
+
+.status-text {
+    padding: 6px 15px 7px;
+    margin-top: 5px;
+    background-color: var(--lightgrey100);
+}
+
+.table-util {
+    padding-bottom: 20px;
+}
+
+.his-total-tt {
+    font-weight: 700;
+}
+
+.btn-label {
+    display: block;
+    padding: 5px 20px 7px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-label.active {
+    background-color: #ddd;
+}
+
+.msgstat-type {
+    display: none;
+}
+
+
+.table-contents {
+    padding: 20px 0;
+}
+
+.tb-cont-to {
+    padding-bottom: 5px;
+    font-size: 12px;
+    color: var(--lightgrey200);
+}
+
+.tb-cont-tt {
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 1px solid var(--lightgrey200);
+}
+
+.tb-cont-detail {
+    padding: 20px;
+    line-height: normal;
+    border-bottom: 1px solid var(--lightgrey200);
+}
+
+.tb-cont-time {
+    padding-top: 10px;
+    text-align: right;
+    color: var(--fontSubColor2);
+}
+
+.tb-cont-time span {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.tb-cont-time span:first-child {
+    padding-left: 0;
+}
+
+.tb-cont-from {
+    padding-top: 10px;
+    text-align: right;
+    color: var(--fontSubColor);
+}
+
+.msgsend-box {
+    width: 100%;
+}
+
+/* CAMPAIN MODAL */
+.campain-cont-inr {
+    padding-top: 20px;
+}
+
+.campain-cont-inr .label {
+    display: inline-block;
+    width: 60px;
+}
+
+.campain-cont-inr .select {
+    width: 200px;
+}
+
+.campain-cont-inr .add-campain {
+    padding-left: 10px;
+}
+
+.campain-cont-inr .campain-add-box {
+    padding: 10px 0 0 63px;
+}
+
+.campain-btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.campain-btn-box button {
+    margin-left: 10px;
+}
+
+.campain-btn-box button:first-child {
+    margin-left: 0;
+}
+
+
+#advanced .srh-col {
+    margin-left: 10px;
+}
+
+#advanced .srh-col .select {
+    width: 200px;
+}
+
+#advanced .srh-col .btn {
+    height: 40px;
+}
+
+#advanced .srh-col:first-child {
+    margin-left: 0;
+}
+
+.advanced-search .icon {
+    margin-left: 5px;
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+.advanced-search.open .icon {
+    transform: rotate(0deg);
+}
+
+#advanced {
+    display: none;
+}

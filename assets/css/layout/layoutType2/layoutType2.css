@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+.body_type2 {
+    width: auto;
+    height: 929px;
+    font-family: 'Pretendard-Medium';
+    margin: 0 auto;
+}
+
+.body-background {
+    background-image: url('/image/img_bg.png');
+    background-repeat: no-repeat;
+    /*    background-position: center top; */
+
+}
+
+#wrap_type2 {
+    width: 1903px;
+    height: 849px;
+    /*    margin: 0 auto; */
+}
+
+#content_type2 {
+    position: relative;
+    width: 1600px;
+    height: 849px;
+    top: 80px;
+}
+
+.menu_circle {
+    display: none;
+    margin: 2px 5px;
+    width: 8px;
+    height: 8px;
+    background: #1CA3DD;
+    border-radius: 50%;
+}
+
+select {
+    cursor: pointer;
+}
+
+
+.show {
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px transparent inset;
+    -webkit-text-fill-color: #000;
+}
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/*datepicker 캘린더 관련 css*/
+.ui-datepicker {
+    font-family: 'Pretendard-Regular';
+}
+
+.ui-datepicker button {
+    font-family: 'Pretendard-Regular';
+}
+
+.ui-datepicker .ui-datepicker-header {
+    height: 30px;
+}
+
+.ui-datepicker select.ui-datepicker-month {
+    height: 27px;
+    margin-right: 10px;
+}
+
+.ui-datepicker select.ui-datepicker-year {
+    height: 27px;
+}
+
+.ui-datepicker-trigger {
+    display: none !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+    border: none;
+    font-weight: 500;
+}

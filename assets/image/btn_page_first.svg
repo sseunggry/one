@@ -1,0 +1,29 @@
+<svg id="btn_page_first" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Mask" d="M-.937,0l-4,4,4,4L0,7.063-3.062,4,0,.938Z" transform="translate(4.938)" fill="#22214b"/>
+        </clipPath>
+    </defs>
+    <g id="Rectangle_5" data-name="Rectangle 5" fill="none" stroke="#22214b" stroke-width="1">
+        <rect width="24" height="24" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="23" height="23" rx="1.5" fill="none"/>
+    </g>
+    <g id="Group_1367" data-name="Group 1367" transform="translate(-856.156 -855)">
+        <g id="Group" transform="translate(864.156 863)">
+            <path id="Mask-3" data-name="Mask" d="M-.937,0l-4,4,4,4L0,7.063-3.062,4,0,.938Z" transform="translate(4.938)" fill="#22214b"/>
+            <g id="Group-2" data-name="Group" clip-path="url(#clip-path)">
+                <g id="_icon-color" data-name="↳🎨icon-color" transform="translate(-33 -32)">
+                    <rect id="Icon-Shade" width="72" height="72" fill="#22214b"/>
+                </g>
+            </g>
+        </g>
+        <g id="Group-3" data-name="Group" transform="translate(868.219 863)">
+            <path id="Mask-4" data-name="Mask" d="M-.937,0l-4,4,4,4L0,7.063-3.062,4,0,.938Z" transform="translate(4.938)" fill="#22214b"/>
+            <g id="Group-4" data-name="Group" clip-path="url(#clip-path)">
+                <g id="_icon-color-2" data-name="↳🎨icon-color" transform="translate(-33 -32)">
+                    <rect id="Icon-Shade-2" data-name="Icon-Shade" width="72" height="72" fill="#22214b"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

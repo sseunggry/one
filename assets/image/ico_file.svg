@@ -1,0 +1,5 @@
+<svg id="ico_file" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <path id="Path_405" data-name="Path 405"
+          d="M72,198.8v10.4a.733.733,0,0,1-.75.8H60.75a.733.733,0,0,1-.75-.8V194.8a.733.733,0,0,1,.75-.8H67.5a.662.662,0,0,1,.525.24l3.75,4A.75.75,0,0,1,72,198.8Zm-6-3.2H61.5v12.8h9v-8H66.75a.733.733,0,0,1-.75-.8Zm1.5.32v2.88h2.7Z"
+          transform="translate(-56 -192)" fill="#22214b" fill-rule="evenodd"/>
+</svg>

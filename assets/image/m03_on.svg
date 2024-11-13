@@ -1,0 +1,15 @@
+<svg id="m03_on" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="24" height="24" fill="#1ca3dd" opacity="0"/>
+    <g id="Group_6" data-name="Group 6" transform="translate(3 4)">
+        <path id="Path_992" data-name="Path 992"
+              d="M601.561,195a3.561,3.561,0,1,0,3.561,3.561A3.561,3.561,0,0,0,601.561,195Zm-1.978,3.561a1.978,1.978,0,1,1,1.978,1.978A1.978,1.978,0,0,1,599.583,198.561Z"
+              transform="translate(-589.1 -194)" fill="#1ca3dd" fill-rule="evenodd"/>
+        <path id="Path_993" data-name="Path 993" d="M601.039,205a5.459,5.459,0,0,0-5.539,5.539h1.583a3.956,3.956,0,1,1,7.913,0h1.583A5.459,5.459,0,0,0,601.039,205Z"
+              transform="translate(-588.578 -196.33)" fill="#1ca3dd"/>
+        <path id="Path_994" data-name="Path 994" d="M586.5,211.539A5.286,5.286,0,0,1,591.643,206a4.963,4.963,0,0,1,2.149.472l-.68,1.429a3.391,3.391,0,0,0-1.469-.319,3.706,3.706,0,0,0-3.561,3.956Z"
+              transform="translate(-586.5 -196.539)" fill="#1ca3dd"/>
+        <path id="Path_995" data-name="Path 995"
+              d="M592.165,197a3.165,3.165,0,1,0,3.165,3.165A3.165,3.165,0,0,0,592.165,197Zm-1.583,3.165a1.583,1.583,0,1,1,1.583,1.583A1.582,1.582,0,0,1,590.583,200.165Z"
+              transform="translate(-587.022 -194.417)" fill="#1ca3dd" fill-rule="evenodd"/>
+    </g>
+</svg>
