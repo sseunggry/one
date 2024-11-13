@@ -252,6 +252,7 @@
 .con-ty2 .input-check input{display: none;}
 .con-ty2 .input-check label{display: flex; align-items: center; font-size: 16px; color: #454545;}
 .con-ty2 .input-check label::before{content: ''; display: block; margin-right: 8px; width: 24px; height: 24px; border: 1px solid #DADCE0; border-radius: 5px;}
+.con-ty2 .input-check input:checked ~ label::before{background-color: #4A7CF7; border-color: #4A7CF7;}
 
 .con-ty2 .input-wrap{position: relative;}
 .con-ty2 .input-wrap ~ * {margin-top: 24px;}
