@@ -228,6 +228,7 @@
 
 .con-ty2 .page-tit {padding-bottom: 60px; font-size: 36px; font-weight: 700; color: #454545; letter-spacing: -0.25px; line-height: 1; text-align: center;}
 .con-ty2 .sub-txt{margin-bottom: 24px; font-size: 20px; line-height: 1.5;}
+.con-ty2 .info-txt{font-size: 16px; line-height: 1.5; margin: 40px 0;}
 .con-ty2 .page-btn{width: 416px; height: 52px; color: #fff; font-size: 16px; background-color: #4A7CF7; border-radius: 5px;}
 .con-ty2 .page-btn.full{width: 100% !important;}
 
