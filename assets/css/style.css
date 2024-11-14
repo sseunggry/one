@@ -286,7 +286,7 @@
 
 /* layout */
 .con-ty2.wrap{min-height: 100vh; background-color: #E5EBF3; line-height: 1.2; color: #454545;}
-.con-ty2 .container {margin: 0 auto; max-width: 1920px; width: 100%; padding: 96px 80px 80px;}
+.con-ty2 .container {margin: 0 auto; max-width: 1920px; width: 100%; padding: 96px 32px 32px;}
 .con-ty2 .section-box{padding: 100px 20px 92px; border-radius: 16px;}
 .con-ty2 .section-box .inner{margin: 0 auto; padding: 0 20px;}
 .con-ty2 .section-box.width-s .inner{max-width: 480px; padding:0;}
@@ -316,8 +316,8 @@
 .con-ty2 .login .img-wrap .img-box {width: calc(100% - 124px); background-color: #454545;}
 .con-ty2 .login .img-wrap .btn-box {padding: 12px 16px;}
 .con-ty2 .login .img-wrap .btn-box li + li{margin-top: 16px;}
-.con-ty2 .login .img-wrap .btn-box button{display: flex; align-items: center;}
-.con-ty2 .login .img-wrap .btn-box button::before{content: ''; display: block; width: 20px; height: 20px; margin-right: 5px;}
+.con-ty2 .login .img-wrap .btn-box button{display: flex; align-items: center; font-size: 12px; color:#49454F;}
+.con-ty2 .login .img-wrap .btn-box button::before{content: ''; display: block; flex-shrink:0; width: 20px; height: 20px; margin-right: 5px;}
 .con-ty2 .login .img-wrap .btn-box button.refresh::before{
     background: url('../images/icon/icon_refresh.png') no-repeat center/contain;
 }
