@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html lang="ko">
     <head>
-
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" /> -->
-        <!-- <link rel="stylesheet" type="text/css" href="../../assets/css/default/reset.css" />
-        <link rel="stylesheet" type="text/css" href="../../assets/css/common.css" /> -->
         <title>로그인(2차인증)</title>
-
         <style type="text/css">
             /* GENERAL STYLE RESETS */
             body, #bodyTable { width:100% !important; height:100% !important; margin:0; padding:0; }
-            #bodyTable { padding: 20px 0 30px 0; background-color: #ffffff; }
+            #bodyTable { padding: 20px 0 30px 0; background-color: #F8F8F9; }
             img, a img { border:0; outline:none; text-decoration:none; }
             .imageFix { display:block; }
             table, td { border-collapse:collapse; }
+            table, tr { border: 0; outline:none;}
             /* CLIENT-SPECIFIC RESETS */
             /* Outlook.com(Hotmail)의 전체 너비 및 적절한 줄 높이를 허용 */
             .ReadMsgBody{ width: 100%; }
@@ -31,23 +25,28 @@
             body, table, td, p, a, li, blockquote { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
         </style>
     </head>
-    <body>
-        <!-- OUTERMOST CONTAINER TABLE -->
-        <table border="0" cellpadding="0" cellspacing="0" width="100%" id="bodyTable">
-          <tr>
-            <td>
-      
-              <!-- 600px - 800px CONTENTS CONTAINER TABLE -->
-              <table border="0" cellpadding="0" cellspacing="0" width="600">
-                <tr>
-                  <td>
-      아아아아아
-                  </td>
-                </tr>
-              </table>
-      
-            </td>
-          </tr>
-        </table>
+    <body id="bodyTable">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+              <td>
+                <table border="0" align="center" cellpadding="0" cellspacing="0" width="600">
+                  <tr>
+                    <td height="80" bgColor="#ffffff" style="padding-left: 24px; box-sizing: border-box; border-bottom-width: 1px; border-bottom-color: #E5E5E5; border-bottom-style: solid;">
+                        <img src="/assets/images/login/mail_logo_2.png" alt="logo" width="152" height="auto">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="520" bgColor="#ffffff" valign="top" style="padding: 24px; box-sizing: border-box;">고객님의 정보와 일치하는 아이디 입니다.</td>
+                  </tr>
+                  <tr>
+                    <td height="112" valign="top" style="font-size: 12px; color:#49454F; padding-top: 32px; padding-left: 24px; box-sizing: border-box;">
+                        본 메일은 발신 전용으로 회신되지 않습니다.<br />
+                        2024 H2O System Technology .  All Rights Reserved.
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
       </body>
 </html>
