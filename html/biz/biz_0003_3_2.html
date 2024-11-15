@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="../../assets/css/default/reset.css" />
         <link rel="stylesheet" type="text/css" href="../../assets/css/common.css" />
-        <title>비즈센터</title>
+        <title>채널관리 - SMS 설정</title>
     </head>
 
     <body>
@@ -53,70 +53,51 @@
                 <div class="section-wrap">
                     <section class="section-box">
                         <div class="inner">
-                            <h2 class="tit-m">
-                                복지365
-                            </h2>
+                            <div class="sub-tit-wrap">
+                                <h2 class="tit-m">복지365</h2>
+                                <a href="#!" class="btn txt primary medium">워크센터 <i class="icon arrow"></i></a>
+                            </div>
                             <div class="gray-box flex between">
                                 <p class="txt-s">그룹설명내용을 출력합니다.</p>
-                                <button type="button" class="btn line">변경</button>
                             </div>
 
                             <div class="tab-list line">
                                 <button type="button" class="tab">그룹상세</button>
-                                <button type="button" class="tab active">요금제관리</button>
-                                <button type="button" class="tab">채널관리</button>
+                                <button type="button" class="tab">요금제관리</button>
+                                <button type="button" class="tab active">채널관리</button>
                                 <button type="button" class="tab">담당자관리</button>
                             </div>
 
+                            <div class="tab-panel"></div>
+                            <div class="tab-panel"></div>
                             <div class="tab-panel active">
-                                <div class="table-wrap">
-                                    <table class="table table-st02">
-                                        <colgroup>
-                                            <col width="22%" />
-                                            <col width="auto" />
-                                        </colgroup>
-                                        <tbody>
-                                            <tr>
-                                                <th>그룹 ID</th>
-                                                <td>
-                                                    abcd1111333355555
-                                                    <button type="button" class="btn btn-icon copy">복사</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th>등록자</th>
-                                                <td>홍길동 (2024-05-25 11:10:10 그룹생성)</td>
-                                            </tr>
-                                            <tr>
-                                                <th>요금제</th>
-                                                <td>
-                                                    정액형
-                                                    <button type="button" class="btn line gray pos-r">요금제 변경</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th>이용 채널</th>
-                                                <td>
-                                                    M.PUSH/ W.PUSH / 카카오알림톡/문자
-                                                    <button type="button" class="btn line gray pos-r">채널 관리</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th>담당자</th>
-                                                <td>
-                                                    3명
-                                                    <button type="button" class="btn line gray pos-r">채널 관리</button>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                <p class="tit-s">[채널명] SMS</p>
+                                <div class="info-box">
+                                    <p class="txt-m">문자 메시지를 발송하기 위해 발신번호 및 통신서비스 이용증명원을 등록하셔야 합니다. (전기통신사업법 제84조)</p>
+                                    <div class="btn-wrap">
+                                        <button type="button" class="btn btn-bg">발신번호 등록</button>
+                                    </div>
+                                </div>
+                                <div class="notice-list small">
+                                    <p class="tit">[발신번호 등록 형식]</p>
+                                    <ul class="list">
+                                        <li>- 유선 전화번호: 02YYYYYYY (지역번호 포함하여 등록)</li>
+                                        <li>- 이동통신 전화번호 : 010YYYYYYYY</li>
+                                        <li>- 대표 전화번호: 15YY, 16YY, 18YY (번호 앞 지역번호 사용 금지)</li>
+                                        <li>- 공통 서비스 식별번호: 0N0 계열 (번호 앞 지역번호 사용 금지)</li>
+                                        <li>- 특수 번호 (11,1335 등)는 해당 멤버 (국가, 지방자치단체, 공공기관 등)에 한하여 사용 가능</li>
+                                        <li>- 스팸 신고로 인해 문자 메시지 발송이 차단된 번호는 발신번호로 등록하더- 라도 발송되지 않습니다.</li>
+                                    </ul>
+                                </div>
+                                <div class="notice-list small">
+                                    <p class="tit">[발신번호 등록 형식]</p>
+                                    <ul class="list">
+                                        <li>“통신서비스 이용 증명원＂이란, 이용자 본인이 사용하는 번호임을 증명하는 서류입니다.</li>
+                                        <li>가입 통신사의 고객센터에서 발급 받을 수 있으며 자세한 발급 방법은 해당 통신사에 문의하시기 바랍니다.</li>
+                                    </ul>
                                 </div>
                             </div>
-
-                            <div class="tab-panel">
-
-                            </div>
-
+                            <div class="tab-panel"></div>
                         </div>
                     </section>
                 </div>
