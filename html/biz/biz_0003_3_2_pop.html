@@ -75,7 +75,7 @@
                                 <div class="info-box">
                                     <p class="txt-m">문자 메시지를 발송하기 위해 발신번호 및 통신서비스 이용증명원을 등록하셔야 합니다. (전기통신사업법 제84조)</p>
                                     <div class="btn-wrap">
-                                        <button type="button" class="btn btn-bg">발신번호 등록</button>
+                                        <button type="button" class="btn bg">발신번호 등록</button>
                                     </div>
                                 </div>
                                 <div class="notice-list small">
@@ -105,65 +105,58 @@
             </div>
 
             <!-- popup -->
-            <div class="modal-wrap modal-right action-modal-bgClose modal-user-append channel-add" id="appAppend" style="display: flex">
+            <div class="modal-wrap modal-right open">
                 <div class="modal-inner">
+                    <!-- modal-header -->
                     <div class="modal-header">
                         <h2 class="modal-title">발신번호 등록</h2>
-                        <button type="button" class="modal-close-btn action-modal-close" data-modalclose="powerAppend">
-                            <img src="../../assets/images/icon/icon_close2.svg" alt="" />
-                        </button>
                     </div>
+                    <!-- //modal-header -->
 
+                    <!-- modal-body -->
                     <div class="modal-body">
-                        <div class="app-append-wrap">
-                            <ul>
-                                <li>
-                                    <div class="input-label-box">
-                                        <label for="data-appKorNm" class="label-text required">발신번호명</label>
-                                        <div class="input-label-box flex gap-8 app-input" style="display: flex; flex-direction: row">
-                                            <input type="text" name="data-appType" id="data-appType" class="input-text block" />
-                                            <input type="hidden" name="data-appTypeChecked" value="N" id="data-appTypeChecked" />
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="input-label-box">
-                                        <label for="data-appKorNm" class="label-text required">발신번호</label>
-                                        <div class="input-label-box flex gap-8 app-input" style="display: flex; flex-direction: row">
-                                            <input type="text" name="data-appType2" id="data-appType2" class="input-text block" />
-                                            <input type="hidden" name="data-appTypeChecked" value="N" id="data-appTypeChecked" />
-                                            <button type="button" class="btn line">중복확인</button>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="input-label-box">
-                                        <span class="label-text required">통신서비스 이용증명원</span>
-                                        <div class="input-file-box flex app-input">
-                                            <input type="file" name="data-p8CertPath" id="data-p8CertPath" class="input-file action-file" />
-                                            <div class="file-url"></div>
-                                            <label for="data-p8CertPath" class="label-file">
-                                                <span class="text">파일첨부</span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="input-label-box">
-                                        <label for="data-appKorNm" class="label-text">요청사항</label>
-                                        <div class="input-label-box flex gap-8 app-input" style="display: flex; flex-direction: row; height: 120px;">
-                                            <textarea name="" id="" class="input-text block" style="height: 100%;"></textarea>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
+                        <div class="input-wrap ty4">
+                            <label for="name" class="required">발신번호명</label>
+                            <div class="input">
+                                <input type="text" id="name" placeholder="가이드 문구" />
+                            </div>
+                        </div>
+                        <div class="input-wrap ty4">
+                            <label for="name2" class="required">발신번호</label>
+                            <div class="input">
+                                <input type="text" id="name2" placeholder="가이드 문구" />
+                                <button type="button" class="btn line">중복확인</button>
+                            </div>
+                        </div>
+                        <div class="input-wrap ty4">
+                            <label for="upload-name" class="required">통신서비스 이용증명원</label>
+                            <div class="input-file-upload">
+                                <input class="upload-name" value="첨부파일" placeholder="첨부파일" id="upload-name" />
+                                <label for="file" class="btn line">파일찾기</label>
+                                <input type="file" id="file" />
+                            </div>
+                        </div>
+                        <div class="input-wrap ty4">
+                            <label for="textarea">요청사항</label>
+                            <div class="input">
+                                <textarea id="textarea"></textarea>
+                            </div>
                         </div>
                     </div>
+                    <!-- //modal-body -->
 
-                    <div class="modal-foot" style="position: sticky; bottom: 0">
-                        <button type="button" class="btn btn-border-only btn-w-124 action-modal-close">취소</button>
-                        <button type="button" class="btn btn-bg btn-w-124 action-channel-append">등록</button>
+                    <!-- modal-page-btn -->
+                    <div class="modal-page-btn">
+                        <button type="button" class="btn line gray">취소</button>
+                        <button type="button" class="btn bg">등록</button>
                     </div>
+                    <!-- //modal-page-btn -->
+
+                    <!-- close btn -->
+                    <button type="button" class="btn icon modal-close-btn">
+                        <i class="icon icon-close"></i>
+                    </button>
+                    <!-- //close btn -->
                 </div>
             </div>
             <!-- //popup -->
