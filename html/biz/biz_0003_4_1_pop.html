@@ -55,9 +55,9 @@
                         <div class="inner">
                             <div class="sub-tit-wrap">
                                 <h2 class="tit-m">복지365</h2>
-                                <a href="#!" class="btn txt primary medium">워크센터 <i class="icon arrow"></i></a>
+                                <a href="#!" class="btn txt primary">워크센터 <i class="icon icon-arrow"></i></a>
                             </div>
-                            <div class="gray-box flex between">
+                            <div class="gray-box">
                                 <p class="txt-s">그룹설명내용을 출력합니다.</p>
                             </div>
 
@@ -86,55 +86,54 @@
             </div>
 
             <!-- popup -->
-            <div class="modal-wrap modal-right action-modal-bgClose modal-user-append channel-add" id="appAppend" style="display: flex">
+            <div class="modal-wrap modal-right open">
                 <div class="modal-inner">
+                    <!-- modal-header -->
                     <div class="modal-header">
                         <h2 class="modal-title">담당자 등록</h2>
-                        <button type="button" class="modal-close-btn action-modal-close" data-modalclose="powerAppend">
-                            <img src="/images/icon/icon_close2.svg" alt="" />
-                        </button>
-                    </div>
+                    </div> 
+                    <!-- //modal-header -->
 
+                    <!-- modal-body -->
                     <div class="modal-body">
-                        <div class="app-append-wrap">
-                            <ul>
-                                <li>
-                                    <div class="input-label-box">
-                                        <label for="data-appKorNm" class="label-text required">이름</label>
-                                        <div class="input-label-box flex gap-8 app-input" style="display: flex; flex-direction: row">
-                                            <input type="text" name="data-appType" id="data-appType" class="input-text block" />
-                                            <input type="hidden" name="data-appTypeChecked" value="N" id="data-appTypeChecked" />
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="input-label-box">
-                                        <label for="data-appKorNm" class="label-text required">이메일</label>
-                                        <div class="input-label-box flex gap-8 app-input" style="display: flex; flex-direction: row">
-                                            <input type="text" name="data-appType2" id="data-appType2" class="input-text block" />
-                                            <input type="hidden" name="data-appTypeChecked" value="N" id="data-appTypeChecked" />
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <label for="" class="label-text required">메시지 발송 유형</label>
-                                    <div class="template-input">
-                                        <div class="radio-group app-input">
-                                            <input type="radio" name="data-usedYn" id="show" checked="" value="Y" />
-                                            <label for="show" class="radio-button2">관리자</label>
-                                            <input type="radio" name="data-usedYn" id="hide" value="N" />
-                                            <label for="hide" class="radio-button2">운영자</label>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
+                        <div class="input-wrap ty4">
+                            <label for="name" class="required">이름</label>
+                            <div class="input">
+                                <input type="text" id="name" placeholder="가이드 문구" />
+                            </div>
+                        </div>
+                        <div class="input-wrap ty4">
+                            <label for="phone" class="required">이메일</label>
+                            <div class="input">
+                                <input type="text" id="phone" placeholder="휴대폰번호 '-’ 없이 입력" />
+                            </div>
+                        </div>
+                        <div class="input-wrap ty4">
+                            <p class="label-tit required">메시지 발송 유형</p>
+                            <div class="btn-radio-wrap">
+                                <div class="btn-radio">
+                                    <input type="radio" name="member" id="meber1" />
+                                    <label for="meber1">관리자</label>
+                                </div>
+                                <div class="btn-radio">
+                                    <input type="radio" name="member" id="member2" />
+                                    <label for="member2">운영자</label>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <!-- //modal-body -->
 
-                    <div class="modal-foot" style="position: sticky; bottom: 0">
-                        <button type="button" class="btn btn-border-only btn-w-124 action-modal-close">취소</button>
-                        <button type="button" class="btn bg btn-w-124 action-channel-append">등록</button>
+                    <!-- modal-page-btn -->
+                    <div class="modal-page-btn">
+                        <button type="button" class="btn line gray">취소</button>
+                        <button type="button" class="btn bg">등록</button>
                     </div>
+                    <!-- //modal-page-btn -->
+
+                    <!-- close btn -->
+                    <button type="button" class="modal-close-btn"><span class="blind">닫기</span></button>
+                    <!-- //close btn -->
                 </div>
             </div>
             <!-- //popup -->

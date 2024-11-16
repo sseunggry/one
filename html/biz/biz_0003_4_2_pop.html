@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="../../assets/css/default/reset.css" />
         <link rel="stylesheet" type="text/css" href="../../assets/css/common.css" />
-        <title>담당자 관리 - 그룹 별 담당자 등록</title>
+        <title>담당자 관리 - 그룹별 담당자 수정_팝업</title>
     </head>
 
     <body>
@@ -93,7 +93,7 @@
                                     </div>
                                     <table class="table table-st01">
                                         <colgroup>
-                                            <col width="8%;" />
+                                            <col width="8%" />
                                             <col width="18%" />
                                             <col width="8%" />
                                             <col width="8%" />
@@ -145,6 +145,97 @@
                 </div>
                 <!--// content -->
             </div>
+
+            <!-- popup -->
+            <div class="modal-wrap modal-right open">
+                <div class="modal-inner">
+                    <!-- modal-header -->
+                    <div class="modal-header">
+                        <h2 class="modal-title">상세</h2>
+                    </div>
+                    <!-- //modal-header -->
+
+                    <!-- modal-body -->
+                    <div class="modal-body">
+                        <div class="table-wrap">
+                            <table class="table table-st02">
+                                <colgroup>
+                                    <col width="30%" />
+                                    <col width="auto" />
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th>이름</th>
+                                        <td>허*장</td>
+                                    </tr>
+                                    <tr>
+                                        <th>메일</th>
+                                        <td>h2o@h2osystech.com</td>
+                                    </tr>
+                                    <tr>
+                                        <th>권한</th>
+                                        <td>
+                                            <div class="btn-radio-wrap">
+                                                <div class="btn-radio">
+                                                    <input type="radio" name="member1" id="meber1" />
+                                                    <label for="meber1">관리자</label>
+                                                </div>
+                                                <div class="btn-radio">
+                                                    <input type="radio" name="member1" id="member2" checked />
+                                                    <label for="member2">운영자</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>상태</th>
+                                        <td>
+                                            <div class="btn-radio-wrap">
+                                                <div class="btn-radio">
+                                                    <input type="radio" name="member2" id="meber2_1" checked />
+                                                    <label for="meber2_1">관리자</label>
+                                                </div>
+                                                <div class="btn-radio">
+                                                    <input type="radio" name="member2" id="member2_2" />
+                                                    <label for="member2_2">운영자</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>비밀번호 변경</th>
+                                        <td>
+                                            <div class="btn-radio-wrap">
+                                                <div class="btn-radio">
+                                                    <input type="radio" name="member3" id="meber3_1" />
+                                                    <label for="meber3_1">관리자</label>
+                                                </div>
+                                                <div class="btn-radio">
+                                                    <input type="radio" name="member3" id="member3_2" checked />
+                                                    <label for="member3_2">운영자</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- //modal-body -->
+
+                    <!-- modal-page-btn -->
+                    <div class="modal-page-btn">
+                        <button type="button" class="btn line gray">취소</button>
+                        <button type="button" class="btn bg">등록</button>
+                    </div>
+                    <!-- //modal-page-btn -->
+
+                    <!-- close btn -->
+                    <button type="button" class="modal-close-btn"><span class="blind">닫기</span></button>
+                    <!-- //close btn -->
+                </div>
+            </div>
+            <!-- //popup -->
         </div>
     </body>
 </html>

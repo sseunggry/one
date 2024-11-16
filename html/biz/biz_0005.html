@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="../../assets/css/default/reset.css" />
         <link rel="stylesheet" type="text/css" href="../../assets/css/common.css" />
-        <title>그룹 선택 - 서비스 그룹 별 상세 내용</title>
+        <title>내정보 관리 - 내정보 및 비밀번호변경</title>
     </head>
 
     <body>
@@ -38,13 +38,13 @@
                         <div class="item">
                             <p class="lnb-tit">서비스 관리</p>
                             <ul class="lnb-menu-list">
-                                <li class="active"><a href="#!" class="service">서비스 관리</a></li>
+                                <li><a href="#!" class="service">서비스 관리</a></li>
                             </ul>
                         </div>
                         <div class="item">
                             <p class="lnb-tit">내 정보 관리</p>
                             <ul class="lnb-menu-list">
-                                <li><a href="#!" class="my">내 정보 관리</a></li>
+                                <li class="active"><a href="#!" class="my">내 정보 관리</a></li>
                             </ul>
                         </div>
                     </div>
@@ -54,22 +54,27 @@
                     <section class="section-box">
                         <div class="inner">
                             <div class="sub-tit-wrap">
-                                <h2 class="tit-m">복지365</h2>
-                                <a href="#!" class="btn txt primary">워크센터 <i class="icon icon-arrow"></i></a>
-                            </div>
-                            <div class="gray-box">
-                                <p class="txt-s">그룹설명내용을 출력합니다.</p>
-                                <button type="button" class="btn line">변경</button>
+                                <h2 class="tit-m">내정보 관리</h2>
                             </div>
 
-                            <div class="tab-list line">
-                                <button type="button" class="tab active">그룹상세</button>
-                                <button type="button" class="tab">요금제관리</button>
-                                <button type="button" class="tab">채널관리</button>
-                                <button type="button" class="tab">담당자관리</button>
-                            </div>
-
-                            <div class="tab-panel active">
+                            <div class="user-info-wrap">
+                                <div class="user-info-box">
+                                    <div class="top">
+                                        <div class="profile">
+                                            <img class="" src="../../assets/images/icon/icon_profile_default.jpg" alt="" />
+                                        </div>
+                                        <p class="name">김민국</p>
+                                        <button class="btn icon"><i class="icon icon-edit"></i> <span class="blind">수정</span></button>
+                                    </div>
+                                    <div class="bottom">
+                                        <p class="id">Abc123</p>
+                                        <p class="team">
+                                            <span>기획팀</span>
+                                            <span>관리자</span>
+                                        </p>
+                                        <button class="btn txt primary">로그아웃 <i class="icon icon-arrow"></i></button>
+                                    </div>
+                                </div>
                                 <div class="table-wrap">
                                     <table class="table table-st02">
                                         <colgroup>
@@ -78,49 +83,38 @@
                                         </colgroup>
                                         <tbody>
                                             <tr>
-                                                <th>그룹 ID</th>
-                                                <td>
-                                                    abcd1111333355555
-                                                    <button type="button" class="btn txt">
-                                                        <i class="icon icon-copy"></i> 복사
-                                                    </button>
-                                                </td>
+                                                <th>이름</th>
+                                                <td>홍길동</td>
                                             </tr>
                                             <tr>
-                                                <th>등록자</th>
-                                                <td>홍길동 (2024-05-25 11:10:10 그룹생성)</td>
+                                                <th>아이디</th>
+                                                <td>abc123@h2osystech.com</td>
                                             </tr>
                                             <tr>
-                                                <th>요금제</th>
-                                                <td>
-                                                    <div class="flex between">
-                                                        정액형 <button type="button" class="btn line gray">요금제 변경</button>
-                                                    </div>
-                                                </td>
+                                                <th>기업/기관명</th>
+                                                <td>행안부1팀</td>
                                             </tr>
                                             <tr>
-                                                <th>이용 채널</th>
-                                                <td>
-                                                    <div class="flex between">
-                                                        M.PUSH/ W.PUSH / 카카오알림톡/문자 <button type="button" class="btn line gray">채널 관리</button>
-                                                    </div>
-                                                </td>
+                                                <th>휴대폰번호</th>
+                                                <td>010-1111-2222</td>
                                             </tr>
                                             <tr>
-                                                <th>담당자</th>
-                                                <td>
-                                                    <div class="flex between">
-                                                        3명 <button type="button" class="btn line gray">담당자 관리</button>
-                                                    </div>
-                                                </td>
+                                                <th>유선번호</th>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <th>권한</th>
+                                                <td>관리자</td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
-                            <div class="tab-panel"></div>
-                            <div class="tab-panel"></div>
-                            <div class="tab-panel"></div>
+
+                            <div class="btn-wrap mt-24 end">
+                                <button type="button" class="btn line gray">개인정보 변경하기</button>
+                                <button type="button" class="btn line gray">비밀번호 변경하기</button>
+                            </div>
                         </div>
                     </section>
                 </div>

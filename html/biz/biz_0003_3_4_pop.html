@@ -55,9 +55,9 @@
                         <div class="inner">
                             <div class="sub-tit-wrap">
                                 <h2 class="tit-m">복지365</h2>
-                                <a href="#!" class="btn txt primary medium">워크센터 <i class="icon arrow"></i></a>
+                                <a href="#!" class="btn txt primary">워크센터 <i class="icon icon-arrow"></i></a>
                             </div>
-                            <div class="gray-box flex between">
+                            <div class="gray-box">
                                 <p class="txt-s">그룹설명내용을 출력합니다.</p>
                             </div>
 
@@ -98,40 +98,54 @@
 
                     <!-- modal-body -->
                     <div class="modal-body">
-                        <div class="form-wrap">
-                            <div class="form-tit">
-                                <p class="tit">메시지 발송 유형</p>
-                            </div>
-                            <div class="input-radio-wrap">
-                                <div class="input-radio">
+                        <div class="input-wrap ty4">
+                            <p class="label-tit required">메시지 발송 유형</p>
+                            <div class="btn-radio-wrap">
+                                <div class="btn-radio">
                                     <input type="radio" name="member" id="meber1" />
                                     <label for="meber1">알림톡</label>
                                 </div>
-                                <div class="input-radio">
+                                <div class="btn-radio">
                                     <input type="radio" name="member" id="member2" />
                                     <label for="member2">친구톡</label>
                                 </div>
                             </div>
                         </div>
                         <div class="input-wrap ty4">
-                            <label for="name2" class="required">플러스 친구 ID 검색용아이디</label>
+                            <label for="name" class="required">플러스 친구 ID 검색용아이디</label>
                             <div class="input">
-                                <input type="text" id="name2" placeholder="가이드 문구" />
-                                <button type="button" class="btn line">중복확인</button>
+                                <input type="text" id="name" placeholder="가이드 문구" />
                             </div>
                         </div>
                         <div class="input-wrap ty4">
-                            <label for="upload-name" class="required">통신서비스 이용증명원</label>
-                            <div class="input-file-upload">
-                                <input class="upload-name" value="첨부파일" placeholder="첨부파일" id="upload-name" />
-                                <label for="file" class="btn line">파일찾기</label>
-                                <input type="file" id="file" />
+                            <label for="phone" class="required">관리자 휴대폰번호</label>
+                            <div class="input">
+                                <input type="text" id="phone" placeholder="휴대폰번호 '-’ 없이 입력" />
                             </div>
                         </div>
                         <div class="input-wrap ty4">
-                            <label for="textarea">요청사항</label>
+                            <p class="label-tit required">PUSH 발송 OS</p>
+                            <div class="input-check-wrap row">
+                                <div class="input-check">
+                                    <input type="radio" name="radio" id="radio1" />
+                                    <label for="radio1">AOS</label>
+                                </div>
+                                <div class="input-check">
+                                    <input type="radio" name="radio" id="radio2" />
+                                    <label for="radio2">IOS</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-wrap ty4">
+                            <label for="phone2" class="required">대표전화번호</label>
                             <div class="input">
-                                <textarea id="textarea"></textarea>
+                                <input type="text" id="phone2" placeholder="가이드 문구" />
+                            </div>
+                        </div>
+                        <div class="input-wrap ty4">
+                            <label for="text">설명</label>
+                            <div class="input">
+                                <input type="text" id="text" placeholder="가이드 문구" />
                             </div>
                         </div>
                     </div>
@@ -145,9 +159,7 @@
                     <!-- //modal-page-btn -->
 
                     <!-- close btn -->
-                    <button type="button" class="btn icon modal-close-btn">
-                        <i class="icon icon-close"></i>
-                    </button>
+                    <button type="button" class="modal-close-btn"><span class="blind">닫기</span></button>
                     <!-- //close btn -->
                 </div>
             </div>
