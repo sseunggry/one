@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="../../assets/css/default/reset.css" />
-        <link rel="stylesheet" type="text/css" href="../../assets/css/common.css" />
+        <link rel="stylesheet" type="text/css" href="../../assets/css/biz-style.css" />
         <title>요금제 선택 - 이용건수/잔액/ 결제수단관리</title>
     </head>
 
@@ -72,7 +72,10 @@
                             <div class="tab-panel"></div>
                             <div class="tab-panel active">
                                 <div class="table-wrap">
-                                    <p class="tit-s">요금제 이용 현황</p>
+                                    <div class="table-info-wrap">
+                                        <p class="tit-s">요금제 이용 현황</p>
+                                        <button type="button" class="btn line ml-auto">충전하기</button>
+                                    </div>
                                     <table class="table table-st02">
                                         <colgroup>
                                             <col width="22%" />
@@ -86,9 +89,7 @@
                                             <tr>
                                                 <th>결제일</th>
                                                 <td>
-                                                    <div class="flex between">
-                                                        2024-05-25 11:10:10 <button type="button" class="btn line gray">결제 이력</button>
-                                                    </div>
+                                                    <div class="flex between">2024-05-25 11:10:10 <button type="button" class="btn line gray">결제 이력</button></div>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -110,9 +111,7 @@
                                             <tr>
                                                 <th>예상잔액</th>
                                                 <td>
-                                                    <div class="flex between">
-                                                        100,000원 <button type="button" class="btn line gray">환불신청</button>
-                                                    </div>
+                                                    <div class="flex between">100,000원 <button type="button" class="btn line gray">환불신청</button></div>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -134,25 +133,19 @@
                                             <tr>
                                                 <th>명세서 수신 메일</th>
                                                 <td>
-                                                    <div class="flex between">
-                                                        h2o@h2osystech.com <button type="button" class="btn line gray">결제수단 변경</button>
-                                                    </div>
+                                                    <div class="flex between">h2o@h2osystech.com <button type="button" class="btn line gray">결제수단 변경</button></div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th>수신 담당자명</th>
                                                 <td>
-                                                    <div class="flex between">
-                                                        홍길동 <button type="button" class="btn line gray">수신자 추가/변경</button>
-                                                    </div>
+                                                    <div class="flex between">홍길동 <button type="button" class="btn line gray">수신자 추가/변경</button></div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th>명세서</th>
                                                 <td>
-                                                    <div class="flex between">
-                                                        출력 <button type="button" class="btn line gray">명세서 확인/출력</button>
-                                                    </div>
+                                                    <div class="flex between">출력 <button type="button" class="btn line gray">명세서 확인/출력</button></div>
                                                 </td>
                                             </tr>
                                         </tbody>
