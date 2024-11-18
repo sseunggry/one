@@ -204,10 +204,10 @@ input[type="radio"] {display: none;}
 .con-ty2 .input textarea{width: 100%; min-height: 120px; border: 1px solid #DADCE0; border-radius: 5px;}
 
 /* layout */
-.con-ty2.wrap{min-height: 100vh; background-color: #E5EBF3; line-height: 1.2; color: #454545;}
+.con-ty2.wrap{min-width: 1280px; min-height: 100vh; background-color: #E5EBF3; line-height: 1.2; color: #454545;}
 .con-ty2.wrap p, h1, h2, h3, h4{line-height: 1.2;}
-.con-ty2 .container {display: flex; margin: 0 auto; width: 100%; min-height: 100vh; padding: 96px 0 0;}
-.con-ty2 .section-wrap{flex: 1; padding: 0 32px 32px; overflow-x: auto;}
+.con-ty2 .container {display: flex; margin: 0 auto; width: 100%; min-height: 100vh; padding: 0;}
+.con-ty2 .section-wrap{flex: 1; padding: 32px; overflow-x: auto;}
 .con-ty2 .section-box{padding: 24px; border-radius: 16px; min-width: 800px; height: 100%; background-color: var(--white);}
 .con-ty2 .section-box.width-s{padding: 0;}
 .con-ty2 .section-box .inner{margin: 0 auto; padding: 0 20px 100px;}
@@ -229,7 +229,7 @@ input[type="radio"] {display: none;}
 .con-ty2 .lnb-wrap .lnb .lnb-menu-list li.active a.my::before{background: url('../images/icon/biz_letter02.png') no-repeat center/contain;}
 
 /* header */
-.con-ty2 .header {padding: 12px 80px; height: 64px; box-shadow: none; position: fixed; top: 0; left: 0; z-index: 99; width: 100%; background-color: var(--white);}
+.con-ty2 .header {padding: 12px 80px; height: 64px; box-shadow: none; position: sticky; top: 0; z-index: 99; width: 100%; background-color: var(--white);}
 .con-ty2 .header .header-inr {display: flex; justify-content: space-between; align-items: center; height: 100%;}
 .con-ty2 .header .logo {position: absolute; left: 80px; width: 195px; padding-bottom: 0;}
 .con-ty2 .header .hd-menu {display: flex; align-items: center; justify-content: center; width: 100%;}
@@ -327,7 +327,7 @@ input[type="radio"] {display: none;}
 
 .con-ty2 .container.main {padding: 64px 0 0;}
 .con-ty2 .main .section-wrap{padding: 0;}
-.con-ty2 .main .section .inner{max-width: 1464px; margin: 0 auto;}
+.con-ty2 .main .section .inner{max-width: 1464px; margin: 0 auto; padding: 0 40px;}
 .con-ty2 .main .fee-plan{padding-bottom: 270px;}
 .con-ty2 .main .fee-plan .page-tit{padding:116px 0 80px; font-size: 24px; font-weight: initial; line-height: 1.5; color: #454545;}
 .con-ty2 .main .fee-plan .plan-box-list {margin-top: 0;}
