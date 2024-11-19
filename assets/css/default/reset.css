@@ -129,8 +129,8 @@ video {
 
 html {
     /* font-family:"Google Sans" */
-    /* font-family: 'Pretendard'; */
-    font-family: 'Noto Sans CJK KR';
+     font-family: 'Pretendard';
+    /*font-family: 'Noto Sans CJK KR';*/
     font-weight: 400;
     font-size: 14px;
 }
