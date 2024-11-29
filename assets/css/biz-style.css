@@ -449,6 +449,60 @@ input[type="radio"] {display: none;}
 .con-ty2 .main .relation-logo .list li:nth-child(6)::before{background-image: url('../images/relation_logo_06.png');}
 
 
+/* 이용약관 */
+.policy .terms-wrap {
+	    padding: 20px 0;
+	    margin: 0 auto;
+	    max-width: 1070px;
+	    overflow: auto;
+	}
+	.policy .terms-wrap .tit{
+	    font-size: 24px;
+	    font-weight: 700;
+	    padding: 14px 0;
+	    border-bottom: 1px solid #D9D9D9;
+	    box-sizing: border-box;
+	    margin-bottom: 40px;
+	}
+	
+	.policy .terms .sub-tit{
+	    font-size: 20px;
+	    font-weight: 700;
+	}
+	
+	.policy .terms{
+	    display: grid;
+	    gap: 12px;
+	}
+	
+	.policy .terms + .terms{
+	    margin-top: 40px;
+	}
+	
+	.policy .terms .table thead{
+	    background-color: #F4F4F4;
+	}
+	
+	.policy .terms .table thead th,
+	.policy .terms .table td{
+	    border: 1px solid #dddddd;
+	}
+	
+	.policy .terms .link-policy{
+	    font-size: 14px;
+	}
+	
+	.policy .terms .list-1depth{
+	    padding-left: 20px;
+	}
+	
+
+/* 이용약관 */
+.test .terms-wrap{ padding: 20px 0; margin: 0 auto; max-width: 1070px; overflow: auto;}
+.test .terms-wrap .page-tit{font-size: 24px; font-weight: 700; padding: 14px 0; border-bottom: 1px solid #D9D9D9; box-sizing: border-box; margin-bottom: 40px;}
+
+
+
 @media (max-width: 1600px) {
     .con-ty2 .grid-box li{flex-direction: column; gap: 10px 0;}
     .con-ty2 .grid-box li[class^="ico-"]::before{margin-right: 0;}
