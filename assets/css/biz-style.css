@@ -561,8 +561,8 @@ input[type="radio"] {display: none;}
 
 
 /* 이용약관2 */
-.con-ty2.wrap.terms{background-color: #fff;}
-.terms .terms-wrap{margin: 0 auto; padding: 20px 0; max-width: 1070px;}
+.con-ty2.wrap.terms{min-width: auto; min-height: auto; background-color: #fff;}
+.terms .terms-wrap{margin: 0 auto; padding: 20px 40px; max-width: calc(1070px + 80px);}
 .terms .terms-tit{padding: 14px 0; border-bottom: 1px solid #D9D9D9; font-size: 24px; font-weight: 700;}
 .terms .terms-inner{padding: 40px 0 60px; font-size: 14px; color: #666; line-height: 2;}
 .terms .terms-inner a{font-size: inherit; color: inherit;}
