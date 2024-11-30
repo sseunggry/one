@@ -468,7 +468,7 @@ input[type="radio"] {display: none;}
 .con-ty2 .main .visual .inner{display: flex; justify-content: space-between; align-items: center; height: 100%;}
 .con-ty2 .main .visual .tit-wrap .tit{font-size: 70px;}
 .con-ty2 .main .visual .tit-wrap .tit strong{font-weight: 700;}
-.con-ty2 .main .visual .tit-wrap .sub-txt{margin: 110px 0 48px; font-size: 28px; opacity: 0.8;}
+.con-ty2 .main .visual .tit-wrap .sub-txt{margin: 110px 0 48px; font-size: 28px;}
 .con-ty2 .main .visual .img-wrap{overflow: hidden; position: relative; width: 45.8%; flex-shrink: 0;}
 .con-ty2 .main .visual .img-wrap::before{content: ''; display: block; padding-top: 100%;}
 .con-ty2 .main .visual .img-wrap img{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; height: 100%; object-fit: cover;}
